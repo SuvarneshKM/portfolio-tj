@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Banner from './components/Banner'
 import Header from './components/Header'
-import Image from 'next/image';
 import WorkCard from './components/WorkCard';
 import Playground from './components/Playground';
+import About from './components/About';
 
 export default function Home() {
   return (
@@ -32,6 +32,7 @@ export default function Home() {
           <h2 className="text-[36px] text-left lg:text-center font-semibold text-accent">
             About Me
           </h2>
+          <About />
         </section>
       </main>
     </div>

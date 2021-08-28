@@ -6,7 +6,8 @@ module.exports = {
     colors: {
       light: '#FAF9F0',
       dark: '#000249',
-      accent: '#F6490D'
+      accent: '#F6490D',
+      accentlight: '#fdd2c3'
     }
   },
   variants: {
