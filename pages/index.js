@@ -22,11 +22,16 @@ export default function Home() {
           <WorkCard />
         </section>
 
-        <section className="pt-[200px]">
+        <section className="pt-[100px] lg:pt-[200px]">
           <h2 className="text-[36px] text-left lg:text-center font-semibold text-accent">
             Playground
           </h2>
           <Playground />
+        </section>
+        <section className="pt-[100px] lg:pt-[200px]">
+          <h2 className="text-[36px] text-left lg:text-center font-semibold text-accent">
+            About Me
+          </h2>
         </section>
       </main>
     </div>
