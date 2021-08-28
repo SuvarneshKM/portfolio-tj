@@ -44,6 +44,9 @@ export default function Home() {
           </p>
           <Contact />
         </section>
+        <footer>
+          <p className="text-center text-dark pb-[30px] pt-[40px] lg:pt-[150px]">Made With ❤ Akhil T J</p>
+        </footer>
       </main>
     </div>
   )
