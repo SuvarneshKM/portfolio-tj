@@ -20,7 +20,7 @@ function About() {
                     collabration, communication and passion.
                 </p>
                 <div className="grid-cols-2 lg:grid-cols-3">
-                    <div class="pr-[8px] pb-[8px]">
+                    <div className="pr-[8px] pb-[8px]">
                         <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
                             Interface Design
                         </span>
@@ -31,7 +31,7 @@ function About() {
                             Color Theory
                         </span>
                     </div>
-                    <div class="pr-[8px]">
+                    <div className="pr-[8px]">
                         <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
                             Design Thinking
                         </span>
@@ -48,7 +48,7 @@ function About() {
                 </div>
 
                 <div className="grid-cols-2 lg:grid-cols-3 pt-[32px]">
-                    <div class="pr-[8px] pb-[8px]">
+                    <div className="pr-[8px] pb-[8px]">
                         <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
                             Figma
                         </span>
@@ -71,7 +71,7 @@ function About() {
                             Trello
                         </span>
                     </div>
-                    <div class="pr-[8px]">
+                    <div className="pr-[8px]">
                         <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
                             Adobe Photoshop
                         </span>

@@ -4,6 +4,7 @@ import Header from './components/Header'
 import WorkCard from './components/WorkCard';
 import Playground from './components/Playground';
 import About from './components/About';
+import Contact from './components/Contact';
 
 export default function Home() {
   return (
@@ -33,6 +34,15 @@ export default function Home() {
             About Me
           </h2>
           <About />
+        </section>
+        <section className="pt-[100px] lg:pt-[200px]">
+          <h2 className="text-[36px] text-left lg:text-center font-semibold text-accent">
+            Contact
+          </h2>
+          <p className="text-[20px] text-left lg:text-center font-normal text-dark">
+            I’m always interested about cool stuff. Need help? Let’s talk.
+          </p>
+          <Contact />
         </section>
       </main>
     </div>
