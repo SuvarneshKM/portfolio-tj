@@ -8,16 +8,13 @@ function WorkCard() {
             <div className="text-dark flex flex-col-reverse lg:flex-row 2xl:pt-[80px] xl:pt-[80px] lg:pt-[80px] pt-[40px]">
                 {/* text */}
                 <div className="flex pr-16 2xl:pr-32 xl:pr-32 lg:pr-32 flex-col flex-grow">
-                    <h4 className="lg:text-[32px] text-left text-[24px] pt-[24px] font-normal">Ctracker - Track your foot and confirm your footprint</h4>
-                    <p className="pt-[16px] text-[20px] text-left font-light flex-grow">Maintaining records of staff,
-                        customers and visitors for contact tracing purposes,
-                        as set out in the Government guidance due to COVID-19.
+                    <h4 className="lg:text-[32px] text-left text-[24px] font-normal">Ctracker - Track your foot and confirm your footprint</h4>
+                    <p className="pt-[16px] text-[20px] text-left font-light flex-grow">Maintaining records of staff, customers and visitors for contact tracing purposes, as set out in the Government guidance due to COVID-19.
                     </p>
                     <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-light flex-grow">
-                        <li className="p-1">Flutter Application</li>
-                        <li className="p-1">QR Code Scanner</li>
-                        <li className="p-1">Admin and User Application</li>
+                        <li className="p-1">Flutter QR Code Scanner Application</li>
                         <li className="p-1">Dark and Light Modes</li>
+                        <li className="p-1">Received 237 Duplicates and 7 Favourites in Figma Community</li>
                     </ul>
                     <div className="pt-[36px] lg:pt-[40px]">
                         <button
@@ -54,16 +51,12 @@ function WorkCard() {
                 </div>
                 {/* text */}
                 <div className="flex pr-16 2xl:pl-32 xl:pl-32 lg:pl-32 flex-col flex-grow">
-                    <h4 className="lg:text-[32px] text-left text-[24px] pt-[24px] font-normal">Livangle</h4>
-                    <p className="pt-[16px] text-[20px] text-left font-light flex-grow">Maintaining records of staff,
-                        customers and visitors for contact tracing purposes,
-                        as set out in the Government guidance due to COVID-19.
+                    <h4 className="lg:text-[32px] text-left text-[24px] font-normal">Livangle</h4>
+                    <p className="pt-[16px] text-[20px] text-left font-light flex-grow">Livangle is an online e-commerce platform for your choice of business(Eg: Online Shopping, Healthcare, Food & Beverage etc) based in UAE & India.
                     </p>
                     <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-light flex-grow">
-                        <li className="p-1">Flutter Application</li>
-                        <li className="p-1">QR Code Scanner</li>
-                        <li className="p-1">Admin and User Application</li>
-                        <li className="p-1">Dark and Light Modes</li>
+                        <li className="p-1">E-commerce Android Application</li>
+                        <li className="p-1">Happy Clients :)</li>
                     </ul>
                     <div className="pt-[36px] lg:pt-[40px]">
                         <button
@@ -82,16 +75,12 @@ function WorkCard() {
             <div className="text-dark flex flex-col-reverse lg:flex-row 2xl:pt-[140px] xl:pt-[140px] lg:pt-[140px] pt-[64px]">
                 {/* text */}
                 <div className="flex pr-16 2xl:pr-32 xl:pr-32 lg:pr-32 flex-col flex-grow">
-                    <h4 className="lg:text-[32px] text-left text-[24px] pt-[24px] font-normal">Hack Club CUCEK - Web Design</h4>
-                    <p className="pt-[16px] text-[20px] text-left font-light flex-grow">Maintaining records of staff,
-                        customers and visitors for contact tracing purposes,
-                        as set out in the Government guidance due to COVID-19.
+                    <h4 className="lg:text-[32px] text-left text-[24px] font-normal">Hack Club CUCEK - Web Design</h4>
+                    <p className="pt-[16px] text-[20px] text-left font-light flex-grow">A nonprofit network of high school coding clubs and makers around the world. For the students, by the students.
                     </p>
                     <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-light flex-grow">
-                        <li className="p-1">Flutter Application</li>
-                        <li className="p-1">QR Code Scanner</li>
-                        <li className="p-1">Admin and User Application</li>
-                        <li className="p-1">Dark and Light Modes</li>
+                        <li className="p-1">Responsive Web Design</li>
+                        <li className="p-1">Full Design System(In Progress)</li>
                     </ul>
                     <div className="pt-[36px] lg:pt-[40px]">
                         <button
@@ -105,7 +94,7 @@ function WorkCard() {
                     </div>
                 </div>
                 {/* img */}
-                <div className="relative h-[343px] w-[343px] lg:h-[500px] p-10 lg:p-20 lg:w-[500px] flex-shrink-0">
+                <div className="relative h-[207.58px] w-[344px] lg:h-[430px] lg:w-[785px] flex-shrink-0">
                     <Image
                         src='/Image-Assets/Hack-Club-CUCEK.png'
                         layout="fill"
@@ -118,7 +107,7 @@ function WorkCard() {
             {/* card-4 */}
             <div className="text-dark flex flex-col lg:flex-row 2xl:pt-[140px] xl:pt-[140px] lg:pt-[140px] pt-[64px]">
                 {/* img */}
-                <div className="relative h-[343px] w-[343px] lg:h-[500px] p-10 lg:p-20 lg:w-[500px] flex-shrink-0">
+                <div className="relative h-[207.27px] w-[343px] lg:h-[340px] p-10 lg:p-20 lg:w-[640px] flex-shrink-0">
                     <Image
                         src='/Image-Assets/TT-Club.png'
                         layout="fill"
@@ -128,16 +117,13 @@ function WorkCard() {
                 </div>
                 {/* text */}
                 <div className="flex pr-16 2xl:pl-32 xl:pl-32 lg:pl-32 flex-col flex-grow">
-                    <h4 className="lg:text-[32px] text-left text-[24px] pt-[24px] font-normal">T T Club - Dashboard, Web Design</h4>
-                    <p className="pt-[16px] text-[20px] text-left font-light flex-grow">Maintaining records of staff,
-                        customers and visitors for contact tracing purposes,
-                        as set out in the Government guidance due to COVID-19.
+                    <h4 className="lg:text-[32px] text-left text-[24px] pt-[24px] font-normal">TT Club - Dashboard</h4>
+                    <p className="pt-[16px] text-[20px] text-left font-light flex-grow">TT Club is a real time airline booking dashboard that aims to cover all operational, relevant areas of an airline booking and serivices.
                     </p>
                     <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-light flex-grow">
-                        <li className="p-1">Flutter Application</li>
-                        <li className="p-1">QR Code Scanner</li>
-                        <li className="p-1">Admin and User Application</li>
-                        <li className="p-1">Dark and Light Modes</li>
+                        <li className="p-1">Web Design</li>
+                        <li className="p-1">Admin Application</li>
+                        <li className="p-1">100% Auto Layout</li>
                     </ul>
                     <div className="pt-[36px] lg:pt-[40px]">
                         <button
