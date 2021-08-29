@@ -14,7 +14,8 @@ module.exports = {
       light: '#FAF9F0',
       dark: '#000249',
       accent: '#F6490D',
-      accentlight: '#feede7'
+      accentlight: '#feede7',
+      white: '#ffffff'
     }
   },
   variants: {
