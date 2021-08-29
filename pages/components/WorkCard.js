@@ -121,9 +121,9 @@ function WorkCard() {
                     </div>
                 </div>
                 {/* img */}
-                <div className="relative h-[207.58px] w-[344px] lg:h-[430px] lg:w-[785px] flex-shrink-0">
+                <div className="relative h-[207.58px] w-[344px] lg:h-[400px] lg:w-[680px] flex-shrink-0">
                     <Image
-                        src='/Image-Assets/Hack-Club-CUCEK.png'
+                        src='/Portfolio/HCCUCEK.png'
                         layout="fill"
                         objectFit="cover"
                         className=""
@@ -134,9 +134,9 @@ function WorkCard() {
             {/* card-4 */}
             <div className="text-dark flex flex-col lg:flex-row 2xl:pt-[140px] xl:pt-[140px] lg:pt-[140px] pt-[64px]">
                 {/* img */}
-                <div className="relative h-[207.27px] w-[343px] lg:h-[340px] p-10 lg:p-20 lg:w-[640px] flex-shrink-0">
+                <div className="relative h-[207.27px] w-[343px] lg:h-[330px] p-10 lg:p-20 lg:w-[550px] flex-shrink-0">
                     <Image
-                        src='/Image-Assets/TT-Club.png'
+                        src='/Portfolio/TTClub.png'
                         layout="fill"
                         objectFit="cover"
                         className=""
