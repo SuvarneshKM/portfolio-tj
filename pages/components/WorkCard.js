@@ -1,7 +1,31 @@
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 import React from 'react';
 
 function WorkCard() {
+    const router = useRouter();
+
+    const ctracker = () => {
+        router.push({
+            pathname: '/works/ctracker'
+        })
+    }
+    const livangle = () => {
+        router.push({
+            pathname: '/works/livangle'
+        })
+    }
+    const hccucek = () => {
+        router.push({
+            pathname: '/works/hccucek'
+        })
+    }
+    const ttclub = () => {
+        router.push({
+            pathname: '/works/ttclub'
+        })
+    }
+
     return (
         <>
             {/* card-1 */}
@@ -18,6 +42,7 @@ function WorkCard() {
                     </ul>
                     <div className="pt-[36px] lg:pt-[40px]">
                         <button
+                            onClick={ctracker}
                             className="bg-transparent
                     hover:bg-accent text-accent 
                     font-medium text-[20px] hover:text-light 
@@ -60,6 +85,7 @@ function WorkCard() {
                     </ul>
                     <div className="pt-[36px] lg:pt-[40px]">
                         <button
+                            onClick={livangle}
                             className="bg-transparent
                     hover:bg-accent text-accent 
                     font-medium text-[20px] hover:text-light 
@@ -84,6 +110,7 @@ function WorkCard() {
                     </ul>
                     <div className="pt-[36px] lg:pt-[40px]">
                         <button
+                            onClick={hccucek}
                             className="bg-transparent
                     hover:bg-accent text-accent 
                     font-medium text-[20px] hover:text-light 
@@ -103,7 +130,7 @@ function WorkCard() {
                     />
                 </div>
             </div>
-           
+
             {/* card-4 */}
             <div className="text-dark flex flex-col lg:flex-row 2xl:pt-[140px] xl:pt-[140px] lg:pt-[140px] pt-[64px]">
                 {/* img */}
@@ -127,6 +154,7 @@ function WorkCard() {
                     </ul>
                     <div className="pt-[36px] lg:pt-[40px]">
                         <button
+                            onClick={ttclub}
                             className="bg-transparent
                     hover:bg-accent text-accent 
                     font-medium text-[20px] hover:text-light 

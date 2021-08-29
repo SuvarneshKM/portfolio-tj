@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@badrap/bar-of-progress": "^0.1.2",
     "@headlessui/react": "^1.4.0",
     "@heroicons/react": "^1.0.4",
     "@svgr/webpack": "^5.5.0",
