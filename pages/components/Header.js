@@ -1,10 +1,10 @@
 import TwitterFillIcon from 'remixicon-react/TwitterFillIcon';
 import LinkedinFillIcon from 'remixicon-react/LinkedinFillIcon';
-import InstagramFillIcon from 'remixicon-react/InstagramFillIcon';
 import CloseLineIcon from 'remixicon-react/CloseLineIcon';
 import MenuLineIcon from 'remixicon-react/MenuLineIcon';
 import { Transition } from "@headlessui/react";
 import React, { useState } from 'react';
+import HeartFillIcon from 'remixicon-react/HeartFillIcon';
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -74,7 +74,7 @@ function Header() {
                                     </div>
                                 </div>
                             </div>
-                            <p className="font-medium pt-10">Made With ❤ Akhil T J</p>
+                            <p className="text-center pt-[10px] inline-flex text-dark ">Made With&nbsp;&nbsp;<HeartFillIcon />&nbsp;&nbsp;Akhil T J</p>
                         </div>
                     </div>
                 )}

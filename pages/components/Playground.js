@@ -53,10 +53,10 @@ function Playground() {
                         />
                     </div>
                 </div>
-                <div className="flex items-center m-2 mt-5 space-x-4 rounded-lg cursor-pointer
+                <div className="flex items-center m-2 mt-5 space-x-3 rounded-lg cursor-pointer
         hover:bg-gray-100 hover:scale-105 transition
         transform duration-200 ease-out">
-                    <div className="relative h-[168px] w-[168px] md:h-[298px] lg:p-20 md:w-[298px] ">
+                    <div className="relative h-[160px] w-[160px] md:h-[298px] lg:p-20 md:w-[298px] ">
                         <Image
                             src='/Image-Assets/TT-Club.png'
                             layout="fill"

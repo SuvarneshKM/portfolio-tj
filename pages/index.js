@@ -5,6 +5,7 @@ import WorkCard from './components/WorkCard';
 import Playground from './components/Playground';
 import About from './components/About';
 import Contact from './components/Contact';
+import HeartFillIcon from 'remixicon-react/HeartFillIcon';
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
       </Head>
       <Header />
       <Banner />
-      <main className="max-w-7xl mx-auto px-8 sm:px-16">
+      <main className="max-w-[90rem] mx-auto px-8 sm:px-16">
         <section className="pt-2">
           <h2 className="text-[36px] text-left lg:text-center font-semibold pb-5 text-accent">
             Featured Works
@@ -44,8 +45,8 @@ export default function Home() {
           </p>
           <Contact />
         </section>
-        <footer>
-          <p className="text-center text-dark pb-[30px] pt-[40px] lg:pt-[150px]">Made With ❤ Akhil T J</p>
+        <footer className="text-center">
+          <p className="text-center inline-flex text-dark pb-[30px] pt-[40px] lg:pt-[150px]">Made With&nbsp;&nbsp;<HeartFillIcon />&nbsp;&nbsp;Akhil T J</p>
         </footer>
       </main>
     </div>

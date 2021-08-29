@@ -13,75 +13,75 @@ function About() {
                 />
             </div>
             {/* text */}
-            <div className="flex pr-16 2xl:pl-32 xl:pl-32 lg:pl-32 flex-col flex-grow">
-                <h4 className="lg:text-[32px] text-left text-[24px] pt-[24px] font-normal">Hello, I’m Akhil T J</h4>
-                <p className="pt-[16px] text-[20px] text-left font-light flex-grow">I’m a self taught <span className="text-accent">freelance</span> designer,
+            <div className="flex pr-16 2xl:pl-32 xl:pl-32 lg:pl-32 flex-col">
+                <h4 className="lg:text-[32px] text-left text-[24px] font-normal pt-[24px]">Hello, I’m Akhil T J</h4>
+                <p className="pt-[16px] text-[20px] text-left font-light">I’m a self taught <span className="text-accent">freelance</span> designer,
                     specialized in <span className="text-accent">UI/UX</span> with a clear focus on user experience,
                     collabration, communication and passion.
                 </p>
-                <div className="grid-cols-2 lg:grid-cols-3">
-                    <div className="pr-[8px] pb-[8px]">
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                <div className="pt-[16px] lg:pt-[24px]">
+                    <div className="lg:pr-[8px] lg:pb-[8px]">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Interface Design
                         </span>
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             User Experience Design
                         </span>
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Color Theory
                         </span>
                     </div>
                     <div className="pr-[8px]">
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Design Thinking
                         </span>
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Layout Theory
                         </span>
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Design System
                         </span>
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Rapid Prototying
                         </span>
                     </div>
                 </div>
 
-                <div className="grid-cols-2 lg:grid-cols-3 pt-[32px]">
+                <div className=" pt-[32px]">
                     <div className="pr-[8px] pb-[8px]">
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Figma
                         </span>
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Adobe XD
                         </span>
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Proto Pie
                         </span>
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Framer
                         </span>
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Miro
                         </span>
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Notion
                         </span>
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Trello
                         </span>
                     </div>
                     <div className="pr-[8px]">
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Adobe Photoshop
                         </span>
-                        <span className="text-xs font-medium inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 mr-1">
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Kenban Board
                         </span>
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row">
+                <div className="flex flex-col md:flex-row pt-[40px] lg:pt-[50px]">
                     <div className="pt-[36px] md:pr-[24px] lg:pt-[40px]">
                         <button
                             className="bg-transparent
