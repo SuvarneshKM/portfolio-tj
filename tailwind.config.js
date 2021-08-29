@@ -15,7 +15,10 @@ module.exports = {
       dark: '#000249',
       accent: '#F6490D',
       accentlight: '#feede7',
-      white: '#ffffff'
+      white: '#ffffff',
+      ctracker1: '#754EE4',
+      ctracker2: '#F1EDFC',
+      ctracker3: '#231F20'
     }
   },
   variants: {
