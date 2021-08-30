@@ -1,108 +1,89 @@
 import Header from '../components/project/Header';
-import CalendarTodoFillIcon from 'remixicon-react/CalendarTodoFillIcon';
 import Image from 'next/image';
 
 function livangle() {
     return (
         <>
             <Header />
-            <main className="">
-                <section className=" pt-[145px]">
-                    <div className="flex flex-row ">
-                        <div className="">
-                            <div className="flex flex-row space-x-[50px] mx-[220px] px-8 sm:px-16">
-                                <CalendarTodoFillIcon className="text-livangle1" />
-                                <span className="text-livangle1 text-[16px] font-medium">June 2021</span>
-                            </div>
-                            <div className="pr-[130px]">
-                                <h2 className="text-[48px] font-extrabold text-livangle2 pb-[16px] mx-[220px] px-8 sm:px-16">Livangle
-                                </h2>
-                            </div>
-                            {/* <div className="bg-livangle3  h-[532px] w-full"> */}
-                            <div className="h-[532px]">
-                                <p className="font-normal text-[20px] text-livangle2 mx-[220px] px-8 pt-[8px] sm:px-16">
-                                    Livangle is an online e-commerce platform for your <br />
-                                    choice of business(Eg: Online Shopping, Healthcare, <br />
-                                    Food & Beverage etc) based in UAE & India.
-                                </p>
-                                <ul className="list-disc font-normal text-[20px] pt-[16px] mx-[260px] text-ctracker3 max-w-[90rem] px-8 sm:px-16">
-                                    <li>E-commerce Android Application</li>
-                                    <li className="text-livangle1">Happy Clients :)</li>
-                                </ul>
-                            </div>
-                            {/* </div> */}
+            <main className="max-w-[1160px] mx-auto">
+                <section className="pt-[145px]">
+                    <div className="flex flex-row justify-between ">
+                        <div>
+                            <span className="text-livangle1 text-[16px] font-medium">June 2021</span>
+                            <h2 className="text-[48px] font-extrabold text-livangle2 pb-[16px] ">Livangle</h2>
+                            <p className="font-normal text-[20px] text-livangle2 pt-[8px]">
+                                Livangle is an online e-commerce platform for your
+                                choice of business(Eg: Online Shopping, Healthcare,
+                                Food & Beverage etc) based in UAE & India.
+                            </p>
+                            <ul className="list-disc font-normal text-[20px] pt-[16px] mx-[40px] text-ctracker3">
+                                <li>E-commerce Android Application</li>
+                                <li className="text-livangle1">Happy Clients :)</li>
+                            </ul>
                         </div>
-                        <div className="absolute h-[507px] w-[402px] right-[350px] pt-[150px]">
+                        <div className="relative h-auto w-[310px] ">
                             <Image
                                 src='/Portfolio/Livangle.png'
                                 layout="fill"
                                 objectFit="cover"
-                                className=""
                             />
                         </div>
                     </div>
                 </section>
-                <section className="">
-                    <h1 className="font-semibold text-[32px] text-livangle1 pt-[140px] mx-[220px] px-8 sm:px-16">Style Guides</h1>
-                    <div className="absolute h-[387px] w-[592px] mt-[24px] mx-[300px] px-8 sm:px-16">
+                <section>
+                    <h1 className="font-semibold text-[32px] text-livangle1 pt-[140px]">Style Guides</h1>
+                    <div className="absolute h-[387px] w-[592px] mt-[24px]">
                         <Image
                             src='/Portfolio/Livangle-Style-Guides.png'
                             layout="fill"
                             objectFit="cover"
-                            className=""
                         />
                     </div>
-                    <h1 className="font-semibold text-[32px] text-livangle1 pt-[500px]  mx-[220px] px-8 sm:px-16">Final UI</h1>
-                    <div className="relative h-[817px] w-[1235px] mt-[24px]  mx-[300px] px-8 sm:px-16">
+                    <h1 className="font-semibold text-[32px] text-livangle1 pt-[500px]">Final UI</h1>
+                    <div className="relative h-[817px] w-[1235px] mt-[24px]">
                         <Image
                             src='/Portfolio/Livangle-Final-UI-1.png'
                             layout="fill"
                             objectFit="cover"
-                            className=""
                         />
                     </div>
-                    <div className="relative h-[818px] w-[1235px] mt-[24px]  mx-[300px] px-8 sm:px-16">
+                    <div className="relative h-[818px] w-[1235px] mt-[24px]">
                         <Image
                             src='/Portfolio/Livangle-Final-UI-2.png'
                             layout="fill"
                             objectFit="cover"
-                            className=""
                         />
                     </div>
-                    <div className="relative h-[818px] w-[1235px] mt-[24px]  mx-[300px] px-8 sm:px-16">
+                    <div className="relative h-[818px] w-[1235px] mt-[24px]">
                         <Image
                             src='/Portfolio/Livangle-Final-UI-3.png'
                             layout="fill"
                             objectFit="cover"
-                            className=""
                         />
                     </div>
-                    <div className="relative h-[818px] w-[1235px] mt-[24px]  mx-[300px] px-8 sm:px-16">
+                    <div className="relative h-[818px] w-[1235px] mt-[24px]">
                         <Image
                             src='/Portfolio/Livangle-Final-UI-4.png'
                             layout="fill"
                             objectFit="cover"
-                            className=""
                         />
                     </div>
-                    <div className="relative h-[1514px] w-[1234px] mt-[24px]  mx-[300px] px-8 sm:px-16">
+                    <div className="relative h-[1514px] w-[1234px] mt-[24px]">
                         <Image
                             src='/Portfolio/Livangle-Final-UI-5.png'
                             layout="fill"
                             objectFit="cover"
-                            className=""
                         />
                     </div>
                 </section>
                 <section >
-                    <h1 className="font-extrabold text-center text-[36px] text-accent my-[140px] mx-[220px] px-8 sm:px-16">Other Featured Projects</h1>
-                    <div className=" inline-flex flex-wrap space-x-[22.47px] mx-[300px] px-8 sm:px-16">
+                    <h1 className="font-extrabold text-center text-[36px] text-accent my-[140px]">Other Featured Projects</h1>
+                    <div className=" inline-flex flex-wrap space-x-[22.47px]">
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
                             <Image
                                 src='/Image-Assets/Ctracker.png'
                                 layout="fill"
                                 objectFit="cover"
-                                className=""
                             />
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
@@ -110,7 +91,6 @@ function livangle() {
                                 src='/Portfolio/Playground-Image.png'
                                 layout="fill"
                                 objectFit="cover"
-                                className=""
                             />
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px]">
@@ -118,7 +98,6 @@ function livangle() {
                                 src='/Image-Assets/Livangle.png'
                                 layout="fill"
                                 objectFit="cover"
-                                className=""
                             />
                         </div>
                     </div>

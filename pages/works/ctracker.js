@@ -8,7 +8,7 @@ function ctracker() {
             <main className="max-w-[1160px] mx-auto">
                 <section className="pt-[145px]">
                     <div className="flex flex-row justify-between ">
-                        <div className="">
+                        <div>
                             <span className="text-ctracker1 text-[16px] font-medium">June 2021</span>
                             <h2 className="text-[48px] font-extrabold text-ctracker3 pb-[16px] ">Ctracker - Track your foot and confirm your footprint</h2>
                             <p className="font-normal text-[20px] text-ctracker3 pt-[8px]">
@@ -27,19 +27,17 @@ function ctracker() {
                                 src='/Portfolio/Ctracker-New.png'
                                 layout="fill"
                                 objectFit="cover"
-                                className=""
                             />
                         </div>
                     </div>
                 </section>
-                <section className="">
+                <section>
                     <h1 className="font-semibold text-[32px] text-ctracker1 pt-[140px]">Style Guides</h1>
                     <div className="absolute h-[393px] w-[1160px] mt-[24px]">
                         <Image
                             src='/Portfolio/Ctracker-Style-Guides.png'
                             layout="fill"
                             objectFit="cover"
-                            className=""
                         />
                     </div>
                     <h1 className="font-semibold text-[32px] text-ctracker1 pt-[500px]">Userflow Diagram</h1>
@@ -48,7 +46,6 @@ function ctracker() {
                             src='/Portfolio/Ctracker-Userflow-Diagram.png'
                             layout="fill"
                             objectFit="cover"
-                            className=""
                         />
                     </div>
 
@@ -58,7 +55,6 @@ function ctracker() {
                             src='/Portfolio/Ctracker-Wireframes.png'
                             layout="fill"
                             objectFit="cover"
-                            className=""
                         />
                     </div>
                     <h1 className="font-semibold text-[32px] text-ctracker1 pt-[500px]">Final UI</h1>
@@ -67,7 +63,6 @@ function ctracker() {
                             src='/Portfolio/Ctracker-Final-UI-1.png'
                             layout="fill"
                             objectFit="cover"
-                            className=""
                         />
                     </div>
                     <div className="relative h-[829px] w-[1236px] mt-[24px]">
@@ -75,7 +70,6 @@ function ctracker() {
                             src='/Portfolio/Ctracker-Final-UI-2.png'
                             layout="fill"
                             objectFit="cover"
-                            className=""
                         />
                     </div>
                 </section>
@@ -87,7 +81,6 @@ function ctracker() {
                                 src='/Image-Assets/Ctracker.png'
                                 layout="fill"
                                 objectFit="cover"
-                                className=""
                             />
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
@@ -95,7 +88,6 @@ function ctracker() {
                                 src='/Portfolio/Playground-Image.png'
                                 layout="fill"
                                 objectFit="cover"
-                                className=""
                             />
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px]">
@@ -103,7 +95,6 @@ function ctracker() {
                                 src='/Image-Assets/Livangle.png'
                                 layout="fill"
                                 objectFit="cover"
-                                className=""
                             />
                         </div>
                     </div>
