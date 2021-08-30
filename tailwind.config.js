@@ -21,7 +21,10 @@ module.exports = {
       ctracker3: '#231F20',
       livangle1: '#009688',
       livangle2: '#231F20',
-      livangle3: '#E5F4F3'
+      livangle3: '#E5F4F3',
+      hccucek1: '#EC3750',
+      hccucek2: '#F9E6E0',
+      hccucek3: '#000249'
     }
   },
   variants: {
