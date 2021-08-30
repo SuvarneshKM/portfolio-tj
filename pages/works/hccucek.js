@@ -56,7 +56,7 @@ function hccucek() {
                     <div className=" inline-flex flex-wrap space-x-[22.47px] ">
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
                             <Image
-                                src='/Image-Assets/Ctracker.png'
+                                src='/Playground/TT-Club.png'
                                 layout="fill"
                                 objectFit="cover"
                                 className=""
@@ -64,7 +64,7 @@ function hccucek() {
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
                             <Image
-                                src='/Playground/Cart.png'
+                                src='/Image-Assets/Ctracker.png'
                                 layout="fill"
                                 objectFit="cover"
                                 className=""
@@ -72,7 +72,7 @@ function hccucek() {
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px]">
                             <Image
-                                src='/Playground/Resume-Template.png'
+                                src='/Image-Assets/Livangle.png'
                                 layout="fill"
                                 objectFit="cover"
                                 className=""

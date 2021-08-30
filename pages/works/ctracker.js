@@ -78,14 +78,14 @@ function ctracker() {
                     <div className=" inline-flex flex-wrap space-x-[22.47px]">
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
                             <Image
-                                src='/Playground/HC-Cucek.png'
+                                src='/Image-Assets/Livangle.png'
                                 layout="fill"
                                 objectFit="cover"
                             />
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
                             <Image
-                                src='/Playground/Covid.png'
+                                src='/Playground/HC-Cucek.png'
                                 layout="fill"
                                 objectFit="cover"
                             />
