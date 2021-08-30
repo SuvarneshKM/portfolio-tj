@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <Header />
       <Banner />
-      <main className="max-w-[90rem] mx-auto px-8 sm:px-16">
+      <main className="max-w-[1240px] mx-auto">
         <section className="pt-2">
           <h2 className="text-[36px] text-left lg:text-center font-semibold pb-5 text-accent">
             Featured Works

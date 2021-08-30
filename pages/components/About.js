@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 function About() {
     return (
-        <div className="text-dark flex flex-col lg:flex-row 2xl:pt-[80px] xl:pt-[80px] lg:pt-[80px] pt-[40px]">
+        <div className="text-dark flex flex-col lg:flex-row lg:pt-[80px] pt-[40px]">
             {/* img */}
             <div className="relative h-[343px] w-[343px] lg:h-[500px] lg:p-20 lg:w-[500px] flex-shrink-0">
                 <Image
@@ -13,8 +13,8 @@ function About() {
                 />
             </div>
             {/* text */}
-            <div className="flex pr-16 2xl:pl-32 xl:pl-32 lg:pl-32 flex-col">
-                <h4 className="lg:text-[32px] text-left text-[24px] font-normal pt-[24px]">Hello, I’m Akhil T J</h4>
+            <div className="flex pr-16 lg:pl-32 flex-col">
+                <h4 className="lg:text-[32px] text-left text-[24px] font-normal ">Hello, I’m Akhil T J</h4>
                 <p className="pt-[16px] text-[20px] text-left font-light">I’m a self taught <span className="text-accent">freelance</span> designer,
                     specialized in <span className="text-accent">UI/UX</span> with a clear focus on user experience,
                     collabration, communication and passion.
