@@ -64,7 +64,7 @@ function hccucek() {
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
                             <Image
-                                src='/Portfolio/Playground-Image.png'
+                                src='/Playground/Cart.png'
                                 layout="fill"
                                 objectFit="cover"
                                 className=""
@@ -72,7 +72,7 @@ function hccucek() {
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px]">
                             <Image
-                                src='/Image-Assets/Livangle.png'
+                                src='/Playground/Resume-Template.png'
                                 layout="fill"
                                 objectFit="cover"
                                 className=""

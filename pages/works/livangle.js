@@ -95,7 +95,7 @@ function livangle() {
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px]">
                             <Image
-                                src='/Image-Assets/Livangle.png'
+                                src='/Playground/Resume-Template.png'
                                 layout="fill"
                                 objectFit="cover"
                             />

@@ -78,21 +78,21 @@ function ctracker() {
                     <div className=" inline-flex flex-wrap space-x-[22.47px]">
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
                             <Image
-                                src='/Image-Assets/Ctracker.png'
+                                src='/Playground/HC-Cucek.png'
                                 layout="fill"
                                 objectFit="cover"
                             />
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
                             <Image
-                                src='/Portfolio/Playground-Image.png'
+                                src='/Playground/Covid.png'
                                 layout="fill"
                                 objectFit="cover"
                             />
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px]">
                             <Image
-                                src='/Image-Assets/Livangle.png'
+                                src='/Playground/TT-Club.png'
                                 layout="fill"
                                 objectFit="cover"
                             />

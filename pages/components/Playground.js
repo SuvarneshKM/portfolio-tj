@@ -8,9 +8,9 @@ function Playground() {
                 <div className="flex items-center m-2 mt-5 space-x-4 rounded-lg cursor-pointer
         hover:bg-gray-100 hover:scale-105 transition
         transform duration-200 ease-out">
-                    <div className="relative h-[168px] w-[168px] md:h-[298px] lg:p-20 md:w-[298px] ">
+                    <div className="relative h-[135px] w-[135px] md:h-[270px] lg:p-20 md:w-[270px] ">
                         <Image
-                            src='/Image-Assets/Akhil-T-J.png'
+                            src='/Playground/Cart.png'
                             layout="fill"
                             objectFit="cover"
                             className=""
@@ -20,9 +20,9 @@ function Playground() {
                 <div className="flex items-center m-2 mt-5 space-x-4 rounded-lg cursor-pointer
         hover:bg-gray-100 hover:scale-105 transition
         transform duration-200 ease-out">
-                    <div className="relative h-[168px] w-[168px] md:h-[298px] lg:p-20 md:w-[298px] ">
+                    <div className="relative h-[135px] w-[135px] md:h-[270px] lg:p-20 md:w-[270px] ">
                         <Image
-                            src='/Image-Assets/Ctracker.png'
+                            src='/Playground/CGPA.png'
                             layout="fill"
                             objectFit="cover"
                             className=""
@@ -32,9 +32,9 @@ function Playground() {
                 <div className="flex items-center m-2 mt-5 space-x-4 rounded-lg cursor-pointer
         hover:bg-gray-100 hover:scale-105 transition
         transform duration-200 ease-out">
-                    <div className="relative h-[168px] w-[168px] md:h-[298px] lg:p-20 md:w-[298px] ">
+                    <div className="relative h-[135px] w-[135px] md:h-[270px] lg:p-20 md:w-[270px] ">
                         <Image
-                            src='/Image-Assets/Hack-Club-CUCEK.png'
+                            src='/Playground/Covid.png'
                             layout="fill"
                             objectFit="cover"
                             className=""
@@ -44,9 +44,9 @@ function Playground() {
                 <div className="flex items-center m-2 mt-5 space-x-4 rounded-lg cursor-pointer
         hover:bg-gray-100 hover:scale-105 transition
         transform duration-200 ease-out">
-                    <div className="relative h-[168px] w-[168px] md:h-[298px] lg:p-20 md:w-[298px] ">
+                    <div className="relative h-[135px] w-[135px] md:h-[270px] lg:p-20 md:w-[270px] ">
                         <Image
-                            src='/Image-Assets/Livangle.png'
+                            src='/Playground/HC-Cucek.png'
                             layout="fill"
                             objectFit="cover"
                             className=""
@@ -56,9 +56,45 @@ function Playground() {
                 <div className="flex items-center m-2 mt-5 space-x-3 rounded-lg cursor-pointer
         hover:bg-gray-100 hover:scale-105 transition
         transform duration-200 ease-out">
-                    <div className="relative h-[160px] w-[160px] md:h-[298px] lg:p-20 md:w-[298px] ">
+                    <div className="relative h-[135px] w-[135px] md:h-[270px] lg:p-20 md:w-[270px] ">
                         <Image
-                            src='/Image-Assets/TT-Club.png'
+                            src='/Playground/Login.png'
+                            layout="fill"
+                            objectFit="cover"
+                            className=""
+                        />
+                    </div>
+                </div>
+                <div className="flex items-center m-2 mt-5 space-x-3 rounded-lg cursor-pointer
+        hover:bg-gray-100 hover:scale-105 transition
+        transform duration-200 ease-out">
+                    <div className="relative h-[135px] w-[135px] md:h-[270px] lg:p-20 md:w-[270px] ">
+                        <Image
+                            src='/Playground/Portfolio.png'
+                            layout="fill"
+                            objectFit="cover"
+                            className=""
+                        />
+                    </div>
+                </div>
+                <div className="flex items-center m-2 mt-5 space-x-3 rounded-lg cursor-pointer
+        hover:bg-gray-100 hover:scale-105 transition
+        transform duration-200 ease-out">
+                    <div className="relative h-[135px] w-[135px] md:h-[270px] lg:p-20 md:w-[270px] ">
+                        <Image
+                            src='/Playground/Resume-Template.png'
+                            layout="fill"
+                            objectFit="cover"
+                            className=""
+                        />
+                    </div>
+                </div>
+                <div className="flex items-center m-2 mt-5 space-x-3 rounded-lg cursor-pointer
+        hover:bg-gray-100 hover:scale-105 transition
+        transform duration-200 ease-out">
+                    <div className="relative h-[135px] w-[135px] md:h-[270px] lg:p-20 md:w-[270px] ">
+                        <Image
+                            src='/Playground/TT-Club.png'
                             layout="fill"
                             objectFit="cover"
                             className=""

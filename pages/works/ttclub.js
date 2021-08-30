@@ -99,7 +99,7 @@ function ttclub() {
                     <div className=" inline-flex flex-wrap space-x-[22.47px] ">
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
                             <Image
-                                src='/Image-Assets/Ctracker.png'
+                                src='/Playground/Login.png'
                                 layout="fill"
                                 objectFit="cover"
                                 className=""
@@ -107,7 +107,7 @@ function ttclub() {
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
                             <Image
-                                src='/Portfolio/Playground-Image.png'
+                                src='/Playground/Portfolio.png'
                                 layout="fill"
                                 objectFit="cover"
                                 className=""
@@ -115,7 +115,7 @@ function ttclub() {
                         </div>
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px]">
                             <Image
-                                src='/Image-Assets/Livangle.png'
+                                src='/Playground/CGPA.png'
                                 layout="fill"
                                 objectFit="cover"
                                 className=""
