@@ -18,7 +18,10 @@ module.exports = {
       white: '#ffffff',
       ctracker1: '#754EE4',
       ctracker2: '#F1EDFC',
-      ctracker3: '#231F20'
+      ctracker3: '#231F20',
+      livangle1: '#009688',
+      livangle2: '#231F20',
+      livangle3: '#E5F4F3'
     }
   },
   variants: {

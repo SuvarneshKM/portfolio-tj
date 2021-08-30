@@ -69,15 +69,6 @@ function ctracker() {
                             className=""
                         />
                     </div>
-                    <h1 className="font-semibold text-[32px] text-ctracker1 pt-[500px] mx-[220px] px-8 sm:px-16">Wireframes</h1>
-                    <div className="absolute h-[367px] w-[1160px] mt-[24px] mx-[300px] px-8 sm:px-16">
-                        <Image
-                            src='/Portfolio/Ctracker-Wireframes.png'
-                            layout="fill"
-                            objectFit="cover"
-                            className=""
-                        />
-                    </div>
                     <h1 className="font-semibold text-[32px] text-ctracker1 pt-[500px]  mx-[220px] px-8 sm:px-16">Final UI</h1>
                     <div className="relative h-[829px] w-[1236px] mt-[24px]  mx-[300px] px-8 sm:px-16">
                         <Image
