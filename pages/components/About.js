@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 function About() {
     return (
@@ -83,14 +84,18 @@ function About() {
 
                 <div className=" pt-[40px] lg:pt-[50px]">
                     <div className="pt-[36px] lg:pt-[40px]">
-                        <button
-                            className="bg-transparent
+                        <Link href="https://www.figma.com/proto/CzBq3kBFgun86eVK4DyZCC/Akhil-T-J-Resume?page-id=0%3A1&node-id=2%3A6&viewport=241%2C48%2C0.2&scaling=scale-down-width">
+                            <a target="_blank" rel="noopener noreferrer">
+                                <button
+                                    className="bg-transparent
                     hover:bg-accent text-accent 
                     font-medium text-[20px] hover:text-light 
                     lg:w-[173px] lg:h-[64px] w-[343px] h-[61px] border-2 border-accent 
                     hover:border-transparent rounded">
-                            My Resume
-                        </button>
+                                    My Resume
+                                </button>
+                            </a>
+                        </Link>
                     </div>
                 </div>
 
