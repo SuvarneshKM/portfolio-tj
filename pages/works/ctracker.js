@@ -17,7 +17,8 @@ function ctracker() {
                             <div className="pr-[780px]">
                                 <h2 className="text-[48px] font-extrabold text-ctracker3 pb-[16px] mx-[220px] px-8 sm:px-16">Ctracker - Track your foot and confirm your footprint</h2>
                             </div>
-                            <div className="bg-ctracker2  h-[398px] w-full">
+                            {/* <div className="bg-ctracker2  h-[398px] w-full"> */}
+                            <div className="h-[532px]">
                                 <p className="font-normal text-[20px] text-ctracker3 mx-[220px] px-8 pt-[8px] sm:px-16">
                                     Maintaining records of staff, customers and
                                     visitors for<br /> contact tracing purposes, as set out in the
@@ -29,6 +30,7 @@ function ctracker() {
                                         <li>Received <span className="text-ctracker1">237 Duplicates</span> and <span className="text-ctracker1">7 Favourites</span> in Figma <br />Community</li></li>
                                 </ul>
                             </div>
+                            {/* </div> */}
                         </div>
                         <div className="absolute h-[507px] w-[360px] right-[350px] pt-[150px]">
                             <Image
