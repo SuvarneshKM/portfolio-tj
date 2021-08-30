@@ -24,7 +24,10 @@ module.exports = {
       livangle3: '#E5F4F3',
       hccucek1: '#EC3750',
       hccucek2: '#F9E6E0',
-      hccucek3: '#000249'
+      hccucek3: '#000249',
+      ttclub1: '#006B66',
+      ttclub2: '#E5F0F0',
+      ttclub3: '#252733'
     }
   },
   variants: {
