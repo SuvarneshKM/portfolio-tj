@@ -9,7 +9,7 @@ import HeartFillIcon from 'remixicon-react/HeartFillIcon';
 
 export default function Home() {
   return (
-    <div className="bg-light">
+    <div className="bg-light" id="home">
       <Head>
         <title>Akhil T J</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,26 +17,26 @@ export default function Home() {
       <Header />
       <Banner />
       <main className="max-w-[1240px] mx-auto">
-        <section className="pt-2">
+        <section className="pt-[100px] lg:pt-[200px]" id="featured">
           <h2 className="text-[36px] text-left lg:text-center font-semibold pb-5 text-accent">
             Featured Works
           </h2>
           <WorkCard />
         </section>
 
-        <section className="pt-[100px] lg:pt-[200px]">
+        <section className="pt-[100px] lg:pt-[200px]" id="playground">
           <h2 className="text-[36px] text-left lg:text-center font-semibold text-accent">
             Playground
           </h2>
           <Playground />
         </section>
-        <section className="pt-[100px] lg:pt-[200px]">
+        <section className="pt-[100px] lg:pt-[200px]" id="about">
           <h2 className="text-[36px] text-left lg:text-center font-semibold text-accent">
             About Me
           </h2>
           <About />
         </section>
-        <section className="pt-[100px] lg:pt-[200px]">
+        <section className="pt-[100px] lg:pt-[200px]" id="contact">
           <h2 className="text-[36px] text-left lg:text-center font-semibold text-accent">
             Contact
           </h2>

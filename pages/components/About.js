@@ -81,17 +81,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row pt-[40px] lg:pt-[50px]">
-                    <div className="pt-[36px] md:pr-[24px] lg:pt-[40px]">
-                        <button
-                            className="bg-transparent
-                    hover:bg-accent text-accent 
-                    font-medium text-[20px] hover:text-light 
-                    lg:w-[276px] lg:h-[64px] w-[343px] h-[61px] border-2 border-accent 
-                    hover:border-transparent rounded">
-                            Know More About Me
-                        </button>
-                    </div>
+                <div className=" pt-[40px] lg:pt-[50px]">
                     <div className="pt-[36px] lg:pt-[40px]">
                         <button
                             className="bg-transparent

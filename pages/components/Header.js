@@ -4,30 +4,54 @@ import CloseLineIcon from 'remixicon-react/CloseLineIcon';
 import MenuLineIcon from 'remixicon-react/MenuLineIcon';
 import { Transition } from "@headlessui/react";
 import React, { useState } from 'react';
-import HeartFillIcon from 'remixicon-react/HeartFillIcon';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
+    const router = useRouter();
+    const home = () => {
+        router.push({
+            pathname: '/'
+        })
+    }
     return (
         <header className="sticky text-center top-0 z-40 bg-light px-0 py-5 md:px-10 shadow-md lg:shadow-none md:shadow-none">
             <div className="hidden md:inline-flex text-dark items-center align-middle space-x-20 whitespace-nowrap">
-                <p className="text-accent font-medium cursor-pointer text-lg">Home</p>
-                <p className="hover:text-accent font-medium cursor-pointer text-lg">Featured Works</p>
-                <p className="hover:text-accent font-medium cursor-pointer text-lg">Playground</p>
-                <p className="hover:text-accent font-medium cursor-pointer text-lg">About</p>
-                <p className="hover:text-accent font-medium cursor-pointer text-lg">Contact</p>
+                <Link href="/#home">
+                    <a className="text-accent font-medium cursor-pointer text-lg">Home</a>
+                </Link>
+                <Link href="/#featured">
+                    <a className="hover:text-accent font-medium cursor-pointer text-lg">Featured Works</a>
+                </Link>
+                <Link href="/#playground">
+                    <a className="hover:text-accent font-medium cursor-pointer text-lg">Playground</a>
+                </Link>
+                <Link href="/#about">
+                    <a className="hover:text-accent font-medium cursor-pointer text-lg">About</a>
+                </Link>
+                <Link href="/#contact">
+                    <p className="hover:text-accent font-medium cursor-pointer text-lg">Contact</p>
+                </Link>
                 <div className="hidden lg:inline-flex items-center space-x-4">
-                    <div className="flex h-8 w-8 items-center border-2 p-1 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
-                        <TwitterFillIcon className="text-light" />
-                    </div>
-                    <div className="flex h-8 w-8 items-center border-2 p-1 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
-                        <LinkedinFillIcon className="text-light" />
-                    </div>
-                    <div className="flex h-8 w-8 items-center border-2 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
-                        <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4608 7.5C12.7275 7.5 11.3335 8.95421 11.3335 10.7357C11.3335 11.8187 11.8492 12.7806 12.6418 13.3678C12.2333 13.6739 11.9022 14.0714 11.675 14.5285C11.4478 14.9856 11.3309 15.4896 11.3335 16C11.3335 17.0837 11.8492 18.045 12.6418 18.6322C12.2333 18.9382 11.9022 19.3357 11.675 19.7928C11.4478 20.2499 11.3309 20.7539 11.3335 21.2643C11.3335 23.0458 12.7275 24.5 14.4608 24.5C16.1934 24.5 17.5881 23.0458 17.5881 21.2643V18.5287C18.1359 18.9855 18.8264 19.2359 19.5396 19.2364C21.2729 19.2357 22.6669 17.7815 22.6669 16C22.6669 14.9162 22.1519 13.955 21.3586 13.3678C21.7671 13.0618 22.0982 12.6643 22.3254 12.2072C22.5526 11.7501 22.6695 11.2461 22.6669 10.7357C22.6669 8.95421 21.2729 7.5 19.5396 7.5H14.4608V7.5ZM12.5087 10.7357C12.5087 9.60871 13.3884 8.70629 14.4608 8.70629H16.4123V12.765H14.4608C13.3884 12.765 12.5087 11.8619 12.5087 10.7357V10.7357ZM19.5396 12.7643H17.5881V8.70558H19.5396C20.6127 8.70558 21.4917 9.60871 21.4917 10.7357C21.4917 11.8619 20.6127 12.7643 19.5396 12.7643ZM12.5094 16C12.5094 14.8737 13.3891 13.9706 14.4615 13.9706H16.413V18.0294H14.4608C13.3877 18.0294 12.5087 17.1262 12.5087 16H12.5094ZM17.5881 16C17.5881 14.8737 18.4679 13.9706 19.5403 13.9706C20.6134 13.9706 21.4925 14.873 21.4925 16C21.4925 17.1262 20.6134 18.0294 19.5403 18.0294C18.4679 18.0294 17.5888 17.127 17.5888 16H17.5881ZM12.5094 21.2643C12.5094 20.1381 13.3891 19.2357 14.4615 19.2357H16.413V21.2643C16.413 22.3913 15.5347 23.2937 14.4615 23.2937C13.3891 23.2937 12.5094 22.3913 12.5094 21.2643Z" fill="#FAF9F0" />
-                        </svg>
-                    </div>
+                    <Link href="https://twitter.com/akhil__tj" >
+                        <a target="_blank" rel="noopener noreferrer" className="flex h-8 w-8 items-center border-2 p-1 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
+                            <TwitterFillIcon className="text-light" />
+                        </a>
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/akhiltj/" >
+                        <a target="_blank" rel="noopener noreferrer" className="flex h-8 w-8 items-center border-2 p-1 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
+                            <LinkedinFillIcon className="text-light" />
+                        </a>
+                    </Link>
+                    <Link href="https://www.figma.com/@akhiltj">
+                        <a target="_blank" rel="noopener noreferrer" className="flex h-8 w-8 items-center border-2 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4608 7.5C12.7275 7.5 11.3335 8.95421 11.3335 10.7357C11.3335 11.8187 11.8492 12.7806 12.6418 13.3678C12.2333 13.6739 11.9022 14.0714 11.675 14.5285C11.4478 14.9856 11.3309 15.4896 11.3335 16C11.3335 17.0837 11.8492 18.045 12.6418 18.6322C12.2333 18.9382 11.9022 19.3357 11.675 19.7928C11.4478 20.2499 11.3309 20.7539 11.3335 21.2643C11.3335 23.0458 12.7275 24.5 14.4608 24.5C16.1934 24.5 17.5881 23.0458 17.5881 21.2643V18.5287C18.1359 18.9855 18.8264 19.2359 19.5396 19.2364C21.2729 19.2357 22.6669 17.7815 22.6669 16C22.6669 14.9162 22.1519 13.955 21.3586 13.3678C21.7671 13.0618 22.0982 12.6643 22.3254 12.2072C22.5526 11.7501 22.6695 11.2461 22.6669 10.7357C22.6669 8.95421 21.2729 7.5 19.5396 7.5H14.4608V7.5ZM12.5087 10.7357C12.5087 9.60871 13.3884 8.70629 14.4608 8.70629H16.4123V12.765H14.4608C13.3884 12.765 12.5087 11.8619 12.5087 10.7357V10.7357ZM19.5396 12.7643H17.5881V8.70558H19.5396C20.6127 8.70558 21.4917 9.60871 21.4917 10.7357C21.4917 11.8619 20.6127 12.7643 19.5396 12.7643ZM12.5094 16C12.5094 14.8737 13.3891 13.9706 14.4615 13.9706H16.413V18.0294H14.4608C13.3877 18.0294 12.5087 17.1262 12.5087 16H12.5094ZM17.5881 16C17.5881 14.8737 18.4679 13.9706 19.5403 13.9706C20.6134 13.9706 21.4925 14.873 21.4925 16C21.4925 17.1262 20.6134 18.0294 19.5403 18.0294C18.4679 18.0294 17.5888 17.127 17.5888 16H17.5881ZM12.5094 21.2643C12.5094 20.1381 13.3891 19.2357 14.4615 19.2357H16.413V21.2643C16.413 22.3913 15.5347 23.2937 14.4615 23.2937C13.3891 23.2937 12.5094 22.3913 12.5094 21.2643Z" fill="#FAF9F0" />
+                            </svg>
+                        </a>
+                    </Link>
                 </div>
             </div>
             <div className="flex items-center justify-end md:hidden">
@@ -54,24 +78,40 @@ function Header() {
                 {(ref) => (
                     <div className="md:hidden absolute bg-light right-0 h-screen w-3/4 top-full shadow-xl">
                         <div ref={ref} className="px-20 text-dark pt-2 pb-3 space-y-8">
-                            <p className="text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium">Home</p>
-                            <p className="hover:text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium">Featured Works</p>
-                            <p className="hover:text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium">Playground</p>
-                            <p className="hover:text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium">About</p>
-                            <p className="hover:text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium">Contact</p>
+                            <Link href="/#home">
+                                <a onClick={() => setIsOpen(!isOpen)} className="text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                            </Link>
+                            <Link href="/#featured">
+                                <a onClick={() => setIsOpen(!isOpen)} className="hover:text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium">Featured Works</a>
+                            </Link>
+                            <Link href="/#playground">
+                                <a onClick={() => setIsOpen(!isOpen)} className="hover:text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium">Playground</a>
+                            </Link>
+                            <Link href="/#about">
+                                <a onClick={() => setIsOpen(!isOpen)} className="hover:text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium">About</a>
+                            </Link>
+                            <Link href="/#contact">
+                                <a onClick={() => setIsOpen(!isOpen)} className="hover:text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+                            </Link>
                             <div>
                                 <div className="inline-flex items-center space-x-4 pt-10">
-                                    <div className="flex h-8 w-8 items-center border-2 p-1 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
-                                        <TwitterFillIcon className="text-light" />
-                                    </div>
-                                    <div className="flex h-8 w-8 items-center border-2 p-1 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
-                                        <LinkedinFillIcon className="text-light" />
-                                    </div>
-                                    <div className="flex h-8 w-8 items-center border-2 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
-                                        <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4608 7.5C12.7275 7.5 11.3335 8.95421 11.3335 10.7357C11.3335 11.8187 11.8492 12.7806 12.6418 13.3678C12.2333 13.6739 11.9022 14.0714 11.675 14.5285C11.4478 14.9856 11.3309 15.4896 11.3335 16C11.3335 17.0837 11.8492 18.045 12.6418 18.6322C12.2333 18.9382 11.9022 19.3357 11.675 19.7928C11.4478 20.2499 11.3309 20.7539 11.3335 21.2643C11.3335 23.0458 12.7275 24.5 14.4608 24.5C16.1934 24.5 17.5881 23.0458 17.5881 21.2643V18.5287C18.1359 18.9855 18.8264 19.2359 19.5396 19.2364C21.2729 19.2357 22.6669 17.7815 22.6669 16C22.6669 14.9162 22.1519 13.955 21.3586 13.3678C21.7671 13.0618 22.0982 12.6643 22.3254 12.2072C22.5526 11.7501 22.6695 11.2461 22.6669 10.7357C22.6669 8.95421 21.2729 7.5 19.5396 7.5H14.4608V7.5ZM12.5087 10.7357C12.5087 9.60871 13.3884 8.70629 14.4608 8.70629H16.4123V12.765H14.4608C13.3884 12.765 12.5087 11.8619 12.5087 10.7357V10.7357ZM19.5396 12.7643H17.5881V8.70558H19.5396C20.6127 8.70558 21.4917 9.60871 21.4917 10.7357C21.4917 11.8619 20.6127 12.7643 19.5396 12.7643ZM12.5094 16C12.5094 14.8737 13.3891 13.9706 14.4615 13.9706H16.413V18.0294H14.4608C13.3877 18.0294 12.5087 17.1262 12.5087 16H12.5094ZM17.5881 16C17.5881 14.8737 18.4679 13.9706 19.5403 13.9706C20.6134 13.9706 21.4925 14.873 21.4925 16C21.4925 17.1262 20.6134 18.0294 19.5403 18.0294C18.4679 18.0294 17.5888 17.127 17.5888 16H17.5881ZM12.5094 21.2643C12.5094 20.1381 13.3891 19.2357 14.4615 19.2357H16.413V21.2643C16.413 22.3913 15.5347 23.2937 14.4615 23.2937C13.3891 23.2937 12.5094 22.3913 12.5094 21.2643Z" fill="#FAF9F0" />
-                                        </svg>
-                                    </div>
+                                    <Link href="https://twitter.com/akhil__tj" >
+                                        <a target="_blank" rel="noopener noreferrer" className="flex h-8 w-8 items-center border-2 p-1 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
+                                            <TwitterFillIcon className="text-light" />
+                                        </a>
+                                    </Link>
+                                    <Link href="https://www.linkedin.com/in/akhiltj/" >
+                                        <a target="_blank" rel="noopener noreferrer" className="flex h-8 w-8 items-center border-2 p-1 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
+                                            <LinkedinFillIcon className="text-light" />
+                                        </a>
+                                    </Link>
+                                    <Link href="https://www.figma.com/@akhiltj">
+                                        <a target="_blank" rel="noopener noreferrer" className="flex h-8 w-8 items-center border-2 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
+                                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4608 7.5C12.7275 7.5 11.3335 8.95421 11.3335 10.7357C11.3335 11.8187 11.8492 12.7806 12.6418 13.3678C12.2333 13.6739 11.9022 14.0714 11.675 14.5285C11.4478 14.9856 11.3309 15.4896 11.3335 16C11.3335 17.0837 11.8492 18.045 12.6418 18.6322C12.2333 18.9382 11.9022 19.3357 11.675 19.7928C11.4478 20.2499 11.3309 20.7539 11.3335 21.2643C11.3335 23.0458 12.7275 24.5 14.4608 24.5C16.1934 24.5 17.5881 23.0458 17.5881 21.2643V18.5287C18.1359 18.9855 18.8264 19.2359 19.5396 19.2364C21.2729 19.2357 22.6669 17.7815 22.6669 16C22.6669 14.9162 22.1519 13.955 21.3586 13.3678C21.7671 13.0618 22.0982 12.6643 22.3254 12.2072C22.5526 11.7501 22.6695 11.2461 22.6669 10.7357C22.6669 8.95421 21.2729 7.5 19.5396 7.5H14.4608V7.5ZM12.5087 10.7357C12.5087 9.60871 13.3884 8.70629 14.4608 8.70629H16.4123V12.765H14.4608C13.3884 12.765 12.5087 11.8619 12.5087 10.7357V10.7357ZM19.5396 12.7643H17.5881V8.70558H19.5396C20.6127 8.70558 21.4917 9.60871 21.4917 10.7357C21.4917 11.8619 20.6127 12.7643 19.5396 12.7643ZM12.5094 16C12.5094 14.8737 13.3891 13.9706 14.4615 13.9706H16.413V18.0294H14.4608C13.3877 18.0294 12.5087 17.1262 12.5087 16H12.5094ZM17.5881 16C17.5881 14.8737 18.4679 13.9706 19.5403 13.9706C20.6134 13.9706 21.4925 14.873 21.4925 16C21.4925 17.1262 20.6134 18.0294 19.5403 18.0294C18.4679 18.0294 17.5888 17.127 17.5888 16H17.5881ZM12.5094 21.2643C12.5094 20.1381 13.3891 19.2357 14.4615 19.2357H16.413V21.2643C16.413 22.3913 15.5347 23.2937 14.4615 23.2937C13.3891 23.2937 12.5094 22.3913 12.5094 21.2643Z" fill="#FAF9F0" />
+                                            </svg>
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                             <p className="text-center pt-[10px] inline-flex text-dark ">Made With&nbsp;&nbsp;
