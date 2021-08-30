@@ -10,19 +10,19 @@ function ctracker() {
                     <div className="flex flex-row justify-between ">
                         <div>
                             <span className="text-ctracker1 text-[16px] font-medium">June 2021</span>
-                            <h2 className="text-[48px] font-extrabold text-ctracker3 pb-[16px] ">Ctracker - Track your foot and confirm your footprint</h2>
+                            <h2 className="text-[48px] font-extrabold text-ctracker3 pb-[16px] ">Ctracker - Track your<br /> foot and confirm <br />your footprint</h2>
                             <p className="font-normal text-[20px] text-ctracker3 pt-[8px]">
                                 Maintaining records of staff, customers and
-                                visitors for contact tracing purposes, as set out in the
-                                Government guidance due to COVID-19.
+                                visitors for<br /> contact tracing purposes, as set out in the
+                                Government<br /> guidance due to COVID-19.
                             </p>
                             <ul className="list-disc font-normal text-[20px] pt-[16px] mx-[40px] text-ctracker3">
                                 <li>Flutter QR Code Scanner Application</li>
                                 <li>Dark and Light Modes</li>
-                                <li>Received <span className="text-ctracker1">237 Duplicates</span> and <span className="text-ctracker1">7 Favourites</span> in Figma Community</li>
+                                <li>Received <span className="text-ctracker1">237 Duplicates</span> and <span className="text-ctracker1">7 Favourites</span> in Figma<br /> Community</li>
                             </ul>
                         </div>
-                        <div className="relative h-auto w-[380px] ">
+                        <div className="relative h-auto w-[350px] ">
                             <Image
                                 src='/Portfolio/Ctracker-New.png'
                                 layout="fill"

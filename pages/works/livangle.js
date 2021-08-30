@@ -12,16 +12,16 @@ function livangle() {
                             <span className="text-livangle1 text-[16px] font-medium">June 2021</span>
                             <h2 className="text-[48px] font-extrabold text-livangle2 pb-[16px] ">Livangle</h2>
                             <p className="font-normal text-[20px] text-livangle2 pt-[8px]">
-                                Livangle is an online e-commerce platform for your
-                                choice of business(Eg: Online Shopping, Healthcare,
+                                Livangle is an online e-commerce platform for your<br/>
+                                choice of business(Eg: Online Shopping, Healthcare,<br/>
                                 Food & Beverage etc) based in UAE & India.
                             </p>
-                            <ul className="list-disc font-normal text-[20px] pt-[16px] mx-[40px] text-ctracker3">
+                            <ul className="list-disc font-normal text-[20px] pt-[16px] mx-[40px] text-livangle2">
                                 <li>E-commerce Android Application</li>
                                 <li className="text-livangle1">Happy Clients :)</li>
                             </ul>
                         </div>
-                        <div className="relative h-auto w-[310px] ">
+                        <div className="relative h-[507px] w-[402px] ">
                             <Image
                                 src='/Portfolio/Livangle.png'
                                 layout="fill"

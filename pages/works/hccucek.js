@@ -1,50 +1,38 @@
 import Header from '../components/project/Header';
-import CalendarTodoFillIcon from 'remixicon-react/CalendarTodoFillIcon';
 import Image from 'next/image';
 
 function hccucek() {
     return (
         <>
             <Header />
-            <main className="">
-                <section className=" pt-[145px]">
-                    <div className="flex flex-row ">
-                        <div className="">
-                            <div className="flex flex-row space-x-[50px] mx-[220px] px-8 sm:px-16">
-                                <CalendarTodoFillIcon className="text-hccucek1" />
-                                <span className="text-hccucek1 text-[16px] font-medium">August 2021</span>
-                            </div>
-                            <div className="pr-[130px]">
-                                <h2 className="text-[48px] font-extrabold text-hccucek3 pb-[16px] mx-[220px] px-8 sm:px-16">Hack Club CUCEK -<br/> Web Design
-                                </h2>
-                            </div>
-                            {/* <div className="bg-hccucek2  h-[532px] w-full"> */}
-                            <div className="h-[532px]">
-                                <p className="font-normal text-[20px] text-hccucek3 mx-[220px] px-8 pt-[8px] sm:px-16">
-                                    A nonprofit network of high school coding clubs <br />
-                                    and makers around the world. For the students,<br />
-                                    by the students.
-                                </p>
-                                <ul className="list-disc font-normal text-[20px] pt-[16px] mx-[260px] text-ctracker3 max-w-[90rem] px-8 sm:px-16">
-                                    <li>Responsive Web Design Design</li>
-                                    <li>System(In Progress)</li>
-                                </ul>
-                            </div>
-                            {/* </div> */}
+            <main className="max-w-[1160px] mx-auto">
+                <section className="pt-[145px]">
+                    <div className="flex flex-row justify-between ">
+                        <div>
+                            <span className="text-hccucek1 text-[16px] font-medium">August 2021</span>
+                            <h2 className="text-[48px] font-extrabold text-hccucek3 pb-[16px] ">Hack Club CUCEK -<br/> Web Design</h2>
+                            <p className="font-normal text-[20px] text-hccucek3 pt-[8px]">
+                                A nonprofit network of high school coding clubs<br/>
+                                and makers around the world. For the students,<br/>
+                                by the students.
+                            </p>
+                            <ul className="list-disc font-normal text-[20px] pt-[16px] mx-[40px] text-hccucek3">
+                                <li>Responsive Web Design Design</li>
+                                <li>System(In Progress)</li>
+                            </ul>
                         </div>
-                        <div className="absolute h-[410px] w-[690px] right-[350px] pt-[150px]">
+                        <div className="relative h-auto w-[610px] ">
                             <Image
                                 src='/Portfolio/HCCUCEK.png'
                                 layout="fill"
                                 objectFit="cover"
-                                className=""
                             />
                         </div>
                     </div>
                 </section>
                 <section className="">
-                    <h1 className="font-semibold text-[32px] text-hccucek1 pt-[140px] mx-[220px] px-8 sm:px-16">Style Guides</h1>
-                    <div className="absolute h-[393px] w-[666px] mt-[24px] mx-[300px] px-8 sm:px-16">
+                    <h1 className="font-semibold text-[32px] text-hccucek1 pt-[140px]">Style Guides</h1>
+                    <div className="absolute h-[393px] w-[666px] mt-[24px] ">
                         <Image
                             src='/Portfolio/HC-CUCEK-Style-Guides.png'
                             layout="fill"
@@ -52,8 +40,8 @@ function hccucek() {
                             className=""
                         />
                     </div>
-                    <h1 className="font-semibold text-[32px] text-hccucek1 pt-[500px]  mx-[220px] px-8 sm:px-16">Final UI</h1>
-                    <div className="relative h-[4016px] w-[1248px] mt-[24px]  mx-[300px] px-8 sm:px-16">
+                    <h1 className="font-semibold text-[32px] text-hccucek1 pt-[500px] ">Final UI</h1>
+                    <div className="relative h-[4016px] w-[1248px] mt-[24px]  ">
                         <Image
                             src='/Portfolio/HC-CUCEK-Final-UI.png'
                             layout="fill"
@@ -61,11 +49,11 @@ function hccucek() {
                             className=""
                         />
                     </div>
-                   
+
                 </section>
                 <section >
-                    <h1 className="font-extrabold text-center text-[36px] text-accent my-[140px] mx-[220px] px-8 sm:px-16">Other Featured Projects</h1>
-                    <div className=" inline-flex flex-wrap space-x-[22.47px] mx-[300px] px-8 sm:px-16">
+                    <h1 className="font-extrabold text-center text-[36px] text-accent my-[140px]">Other Featured Projects</h1>
+                    <div className=" inline-flex flex-wrap space-x-[22.47px] ">
                         <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
                             <Image
                                 src='/Image-Assets/Ctracker.png'
