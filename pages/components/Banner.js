@@ -12,11 +12,11 @@ function Banner() {
                 />
             </div>
             <p className="text-xl pt-5 pb-4">Hello, I'm Akhil T J.</p>
-            <h1 className="text-5xl lg:text-6xl font-bold">Inquestive Junior Designer,
+            <h1 className="text-5xl lg:text-6xl font-bold">Inquisitive Junior Designer,
                 Specialized in UI/UX,</h1>
             <p className="text-xl pt-5 lg:pr-20 lg:pl-20">
-                skilled in <span className="text-accent">leadership</span>, seeking to leverage solid design skills with a focus on
-                <span className="text-accent">collaboration</span>, <span className="text-accent">communication</span> and <span className="text-accent">passion</span>.
+                skilled in <span className="text-accent">leadership</span>, seeking to leverage solid design skills with a focus on 
+                <span className="text-accent"> collaboration</span>, <span className="text-accent">communication</span> and <span className="text-accent">passion</span>.
             </p>
             <div className="hidden lg:inline-flex pt-24">
                 <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">

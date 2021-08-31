@@ -17,33 +17,29 @@ function About() {
             <div className="flex pr-16 lg:pl-32 flex-col">
                 <h4 className="lg:text-[32px] text-left text-[24px] font-normal ">Hello, I’m Akhil T J</h4>
                 <p className="pt-[16px] text-[20px] text-left font-light">I’m a self taught <span className="text-accent">freelance</span> designer,
-                    specialized in <span className="text-accent">UI/UX</span> with a clear focus on user experience,
-                    collabration, communication and passion.
+                    specialized in <span className="text-accent">UI/UX</span>, skilled in leadership, seeking to leverage solid design skills with a focus on collaboration, communication and passion. My knowledge and skillset includes the following:
                 </p>
                 <div className="pt-[16px] lg:pt-[24px]">
                     <div className="lg:pr-[8px] lg:pb-[8px]">
                         <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
-                            Interface Design
+                            User Interface Design
                         </span>
                         <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             User Experience Design
                         </span>
                         <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
-                            Color Theory
+                            Design Thinking
                         </span>
                     </div>
                     <div className="pr-[8px]">
                         <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
-                            Design Thinking
+                            Wireframing
                         </span>
                         <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
-                            Layout Theory
+                            Rapid Prototyping
                         </span>
                         <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Design System
-                        </span>
-                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
-                            Rapid Prototying
                         </span>
                     </div>
                 </div>
@@ -57,19 +53,19 @@ function About() {
                             Adobe XD
                         </span>
                         <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
-                            Proto Pie
-                        </span>
-                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
-                            Framer
+                            Canva
                         </span>
                         <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
                             Miro
                         </span>
                         <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
-                            Notion
+                            Trello
                         </span>
                         <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
-                            Trello
+                            Git/Github
+                        </span>
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
+                            MS Word
                         </span>
                     </div>
                     <div className="pr-[8px]">
@@ -77,7 +73,13 @@ function About() {
                             Adobe Photoshop
                         </span>
                         <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
-                            Kenban Board
+                            Flutter
+                        </span>
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
+                            C
+                        </span>
+                        <span className="text-[14px] mr-[8px] mb-[8px] font-normal inline-block py-1 px-2 rounded text-accent bg-accentlight last:mr-0 ">
+                            C++
                         </span>
                     </div>
                 </div>
