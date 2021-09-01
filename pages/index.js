@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import Banner from './components/Banner'
-import Header from './components/Header'
-import WorkCard from './components/WorkCard';
-import Playground from './components/Playground';
-import About from './components/About';
-import Contact from './components/Contact';
-import HeartFillIcon from 'remixicon-react/HeartFillIcon';
+import Banner from '../components/Banner'
+import Header from '../components/Header'
+import WorkCard from '../components/WorkCard';
+import Playground from '../components/Playground';
+import About from '../components/About';
+import Contact from '../components/Contact';
 
 export default function Home() {
   return (

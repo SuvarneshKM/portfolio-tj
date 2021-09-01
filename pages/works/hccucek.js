@@ -1,4 +1,4 @@
-import Header from '../components/project/Header';
+import Header from '../../components/project/Header';
 import Image from 'next/image';
 
 function hccucek() {

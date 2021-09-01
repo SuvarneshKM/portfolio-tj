@@ -1,4 +1,4 @@
-import Header from '../components/project/Header';
+import Header from '../../components/project/Header';
 import CalendarTodoFillIcon from 'remixicon-react/CalendarTodoFillIcon';
 import Image from 'next/image';
 
