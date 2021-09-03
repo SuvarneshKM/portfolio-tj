@@ -18,23 +18,23 @@ function Header() {
     }
     return (
         <header className="sticky text-center top-0 z-40 bg-light px-0 py-5 md:px-10 shadow-md lg:shadow-none md:shadow-none">
-            <div className="hidden md:inline-flex text-dark items-center align-middle space-x-20 whitespace-nowrap">
+            <div className="hidden md:inline-flex text-dark items-center align-middle space-x-[64px] whitespace-nowrap">
                 <Link href="/#home">
-                    <a className="text-accent font-medium cursor-pointer text-lg">Home</a>
+                    <a className="text-accent font-bold cursor-pointer text-[18px]">Home</a>
                 </Link>
                 <Link href="/#featured">
-                    <a className="hover:text-accent font-medium cursor-pointer text-lg">Featured Works</a>
+                    <a className="hover:text-accent font-medium cursor-pointer text-[18px]">Featured Works</a>
                 </Link>
                 <Link href="/#playground">
-                    <a className="hover:text-accent font-medium cursor-pointer text-lg">Playground</a>
+                    <a className="hover:text-accent font-medium cursor-pointer text-[18px]">Playground</a>
                 </Link>
                 <Link href="/#about">
-                    <a className="hover:text-accent font-medium cursor-pointer text-lg">About</a>
+                    <a className="hover:text-accent font-medium cursor-pointer text-[18px]">About</a>
                 </Link>
                 <Link href="/#contact">
-                    <p className="hover:text-accent font-medium cursor-pointer text-lg">Contact</p>
+                    <p className="hover:text-accent font-medium cursor-pointer text-[18px]">Contact</p>
                 </Link>
-                <div className="hidden lg:inline-flex items-center space-x-4">
+                <div className="hidden lg:inline-flex items-center space-x-[16px]">
                     <Link href="https://twitter.com/akhil__tj" >
                         <a target="_blank" rel="noopener noreferrer" className="flex h-8 w-8 items-center border-2 p-1 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
                             <TwitterFillIcon className="text-light" />
