@@ -3,7 +3,7 @@ import Image from 'next/image';
 function Banner() {
     return (
         <div className="relative my-auto py-[150px] max-w-6xl mx-auto px-[15px] sm:px-[25px] text-left lg:text-center text-dark bg-light ">
-            <div className="relative h-32">
+            <div className="relative h-[152px]">
                 <Image
                     src="/Avatar/main-avatar.png"
                     layout='fill'
@@ -11,10 +11,10 @@ function Banner() {
                     className="cursor-pointer object-left lg:object-center"
                 />
             </div>
-            <p className="text-xl pt-5 pb-4">Hello, I'm Akhil T J.</p>
-            <h1 className="text-5xl lg:text-6xl font-bold">Inquisitive Junior Designer,
+            <p className="text-[20px] font-medium pt-5 pb-4">Hello, I'm <span className="text-accent">Akhil T J</span>.</p>
+            <h1 className="text-[40px] lg:text-[48px] font-extrabold">Inquisitive Junior Designer,
                 Specialized in UI/UX,</h1>
-            <p className="text-xl pt-5 lg:pr-20 lg:pl-20">
+            <p className="text-[20px] font-medium pt-5 lg:pr-20 lg:pl-20">
                 skilled in <span className="text-accent">leadership</span>, seeking to leverage solid design skills with a focus on 
                 <span className="text-accent"> collaboration</span>, <span className="text-accent">communication</span> and <span className="text-accent">passion</span>.
             </p>
