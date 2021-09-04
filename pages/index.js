@@ -16,27 +16,27 @@ export default function Home() {
       <Header />
       <Banner />
       <main className="max-w-[1240px] mx-auto px-[15px] sm:px-[25px]">
-        <section className="pt-[100px] lg:pt-[200px]" id="featured">
-          <h2 className="text-[36px] text-left lg:text-center font-semibold pb-5 text-accent">
+        <section className="pt-[100px] lg:pt-[144px]" id="featured">
+          <h2 className="text-[36px] text-left lg:text-center font-extrabold pb-5 text-accent">
             Featured Works
           </h2>
           <WorkCard />
         </section>
 
         <section className="pt-[100px] lg:pt-[200px]" id="playground">
-          <h2 className="text-[36px] text-left lg:text-center font-semibold text-accent">
+          <h2 className="text-[36px] text-left lg:text-center font-extrabold text-accent">
             Playground
           </h2>
           <Playground />
         </section>
         <section className="pt-[100px] lg:pt-[200px]" id="about">
-          <h2 className="text-[36px] text-left lg:text-center font-semibold text-accent">
+          <h2 className="text-[36px] text-left lg:text-center font-extrabold text-accent">
             About Me
           </h2>
           <About />
         </section>
         <section className="pt-[100px] lg:pt-[200px]" id="contact">
-          <h2 className="text-[36px] text-left lg:text-center font-semibold text-accent">
+          <h2 className="text-[36px] text-left lg:text-center font-extrabold text-accent">
             Contact
           </h2>
           <p className="text-[20px] text-left lg:text-center font-normal text-dark">

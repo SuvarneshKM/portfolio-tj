@@ -33,12 +33,12 @@ function WorkCard() {
                 {/* text */}
                 <div className="flex pr-16 2xl:pr-32 xl:pr-32 lg:pr-32 flex-col">
                     <h4 className="lg:text-[32px] text-left text-[24px] font-semibold">Ctracker - Track your foot and confirm your footprint</h4>
-                    <p className="pt-[16px] text-[20px] text-left font-light ">Maintaining records of staff, customers and visitors for contact tracing purposes, as set out in the Government guidance due to COVID-19.
+                    <p className="pt-[16px] text-[20px] text-left font-normal ">Maintaining records of staff, customers and visitors for contact tracing purposes, as set out in the Government guidance due to COVID-19.
                     </p>
-                    <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-light flex-grow">
+                    <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-normal flex-grow">
                         <li className="p-1">Flutter QR Code Scanner Application</li>
                         <li className="p-1">Dark and Light Modes</li>
-                        <li className="p-1">Received 237 Duplicates and 7 Favourites in Figma Community</li>
+                        <li className="p-1">Received <span className="text-accent">237 Duplicates</span> and <span className="text-accent">7 Favourites</span> in Figma Community</li>
                     </ul>
                     <div className="pt-[36px] lg:pt-[40px]">
                         <button
@@ -64,7 +64,7 @@ function WorkCard() {
             </div>
 
             {/* card-2 */}
-            <div className="text-dark flex flex-col lg:flex-row 2xl:pt-[140px] xl:pt-[140px] lg:pt-[140px] pt-[64px]">
+            <div className="text-dark flex flex-col lg:flex-row 2xl:pt-[172px] xl:pt-[172px] lg:pt-[172px] pt-[64px]">
                 {/* img */}
                 <div className="relative h-[343px] w-[343px] lg:h-[500px] p-10 lg:p-20 lg:w-[500px] flex-shrink-0">
                     <Image
@@ -75,13 +75,13 @@ function WorkCard() {
                     />
                 </div>
                 {/* text */}
-                <div className="flex pr-16 2xl:pl-32 xl:pl-32 lg:pl-32 flex-col flex-grow">
+                <div className="flex pr-16 2xl:pl-32 xl:pl-32 lg:pl-32 flex-col">
                     <h4 className="lg:text-[32px] text-left text-[24px] font-semibold">Livangle</h4>
-                    <p className="pt-[16px] text-[20px] text-left font-light ">Livangle is an online e-commerce platform for your choice of business(Eg: Online Shopping, Healthcare, Food & Beverage etc) based in UAE & India.
+                    <p className="pt-[16px] text-[20px] text-left font-normal ">Livangle is an online e-commerce platform for your choice of business(Eg: Online Shopping, Healthcare, Food & Beverage etc) based in UAE & India.
                     </p>
-                    <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-light flex-grow">
+                    <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-normal flex-grow">
                         <li className="p-1">E-commerce Android Application</li>
-                        <li className="p-1">Happy Clients :)</li>
+                        <li className="p-1"><span className="text-accent">Happy Clients</span> :)</li>
                     </ul>
                     <div className="pt-[36px] lg:pt-[40px]">
                         <button
@@ -98,13 +98,13 @@ function WorkCard() {
             </div>
 
             {/* card-3 */}
-            <div className="text-dark flex flex-col-reverse lg:flex-row 2xl:pt-[140px] xl:pt-[140px] lg:pt-[140px] pt-[64px]">
+            <div className="text-dark flex flex-col-reverse lg:flex-row 2xl:pt-[172px] xl:pt-[172px] lg:pt-[172px] pt-[64px]">
                 {/* text */}
                 <div className="flex pr-16 2xl:pr-32 xl:pr-32 lg:pr-32 flex-col flex-grow">
                     <h4 className="lg:text-[32px] text-left text-[24px] font-semibold">Hack Club CUCEK - Web Design</h4>
-                    <p className="pt-[16px] text-[20px] text-left font-light ">A nonprofit network of high school coding clubs and makers around the world. For the students, by the students.
+                    <p className="pt-[16px] text-[20px] text-left font-normal ">A nonprofit network of high school coding clubs and makers around the world. For the students, by the students.
                     </p>
-                    <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-light flex-grow">
+                    <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-normal flex-grow">
                         <li className="p-1">Responsive Web Design</li>
                         <li className="p-1">Full Design System(In Progress)</li>
                     </ul>
@@ -132,7 +132,7 @@ function WorkCard() {
             </div>
 
             {/* card-4 */}
-            <div className="text-dark flex flex-col lg:flex-row 2xl:pt-[140px] xl:pt-[140px] lg:pt-[140px] pt-[64px]">
+            <div className="text-dark flex flex-col lg:flex-row 2xl:pt-[172px] xl:pt-[172px] lg:pt-[172px] pt-[64px]">
                 {/* img */}
                 <div className="relative h-[207.27px] w-[343px] lg:h-[330px] p-10 lg:p-20 lg:w-[550px] flex-shrink-0">
                     <Image
@@ -145,9 +145,9 @@ function WorkCard() {
                 {/* text */}
                 <div className="flex pr-16 2xl:pl-32 xl:pl-32 lg:pl-32 flex-col flex-grow">
                     <h4 className="lg:text-[32px] text-left text-[24px] font-semibold">TT Club - Dashboard</h4>
-                    <p className="pt-[16px] text-[20px] text-left font-light ">TT Club is a real time airline booking dashboard that aims to cover all operational, relevant areas of an airline booking and serivices.
+                    <p className="pt-[16px] text-[20px] text-left font-normal ">TT Club is a real time airline booking dashboard that aims to cover all operational, relevant areas of an airline booking and serivices.
                     </p>
-                    <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-light ">
+                    <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-normal ">
                         <li className="p-1">Web Design</li>
                         <li className="p-1">Admin Application</li>
                         <li className="p-1">100% Auto Layout</li>
