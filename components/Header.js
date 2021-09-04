@@ -3,21 +3,36 @@ import LinkedinFillIcon from 'remixicon-react/LinkedinFillIcon';
 import CloseLineIcon from 'remixicon-react/CloseLineIcon';
 import MenuLineIcon from 'remixicon-react/MenuLineIcon';
 import { Transition } from "@headlessui/react";
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
+    const [handleShow, setHandleShow] = useState(false);
     const router = useRouter();
     const home = () => {
         router.push({
             pathname: '/'
         })
     }
+
+    useEffect(() => {
+        const listener = () => {
+            if (window.scrollY > 0) {
+                setHandleShow(true);
+            } else
+                setHandleShow(false);
+        };
+        window.addEventListener("scroll", listener);
+
+        return () => {
+            window.removeEventListener("scroll", listener);
+        };
+    }, []);
     return (
-        <header className="sticky text-center top-0 z-40 bg-light px-0 py-[36px] md:px-10 shadow-md lg:shadow-none md:shadow-none">
+        <header className={`sticky text-center top-0 z-40 bg-light px-0 py-[24px] md:px-10 ${handleShow ? "shadow-md " : ""}  `}>
             <div className="hidden md:inline-flex text-dark items-center align-middle space-x-[64px] whitespace-nowrap">
                 <Link href="/#home">
                     <a className="text-accent font-bold cursor-pointer text-[18px]">Home</a>
