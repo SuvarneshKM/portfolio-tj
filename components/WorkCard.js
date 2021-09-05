@@ -79,7 +79,7 @@ function WorkCard() {
                     <h4 className="lg:text-[32px] text-left text-[24px] font-semibold">Livangle</h4>
                     <p className="pt-[16px] text-[20px] text-left font-normal ">Livangle is an online e-commerce platform for your choice of business(Eg: Online Shopping, Healthcare, Food & Beverage etc) based in UAE & India.
                     </p>
-                    <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-normal flex-grow">
+                    <ul className="list-disc pl-10 pt-[24px] lg:pt-[40px] text-[20px] font-normal">
                         <li className="p-1">E-commerce Android Application</li>
                         <li className="p-1"><span className="text-accent">Happy Clients</span> :)</li>
                     </ul>
