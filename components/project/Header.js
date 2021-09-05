@@ -9,7 +9,7 @@ import HeartFillIcon from 'remixicon-react/HeartFillIcon';
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <header className="sticky text-center top-0 z-40 bg-white px-0 py-5 md:px-10 shadow-md lg:shadow-none md:shadow-none">
+        <header className="sticky text-center top-0 z-40 bg-white px-0 py-5 md:px-10 shadow-md lg:shadow-xl md:shadow-none">
             <div className="hidden md:inline-flex text-dark items-center align-middle space-x-20 whitespace-nowrap">
                 <p className="text-accent font-medium cursor-pointer text-lg">Home</p>
                 <p className="hover:text-accent font-medium cursor-pointer text-lg">Featured Works</p>

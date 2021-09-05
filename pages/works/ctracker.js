@@ -74,23 +74,23 @@ function ctracker() {
                     </div>
                 </section>
                 <section >
-                    <h1 className="font-extrabold text-center text-[36px] text-accent my-[140px]">Other Featured Projects</h1>
+                    <h1 className="font-extrabold text-center text-[36px] text-accent my-[100px]">Other Featured Projects</h1>
                     <div className=" inline-flex flex-wrap space-x-[22.47px]">
-                        <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
+                        <div className="relative h-[371.69px] w-[371.69px] pt-[80px] ">
                             <Image
                                 src='/Image-Assets/Livangle.png'
                                 layout="fill"
                                 objectFit="cover"
                             />
                         </div>
-                        <div className="relative h-[371.69px] w-[371.69px] mt-[24px] ">
+                        <div className="relative h-[371.69px] w-[371.69px] pt-[80px] ">
                             <Image
                                 src='/Playground/HC-Cucek.png'
                                 layout="fill"
                                 objectFit="cover"
                             />
                         </div>
-                        <div className="relative h-[371.69px] w-[371.69px] mt-[24px]">
+                        <div className="relative h-[371.69px] w-[371.69px] pt-[80px]">
                             <Image
                                 src='/Playground/TT-Club.png'
                                 layout="fill"
