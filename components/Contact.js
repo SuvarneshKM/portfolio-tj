@@ -36,7 +36,7 @@ function Contact() {
                     <button
                         className="bg-transparent
                     hover:bg-accent text-accent 
-                    font-medium text-[20px] hover:text-light 
+                    font-semibold text-[20px] hover:text-light 
                     lg:w-[276px] lg:h-[64px] w-[343px] h-[61px] border-2 border-accent 
                     hover:border-transparent rounded">
                         Send Message

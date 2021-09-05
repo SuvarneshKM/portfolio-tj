@@ -45,7 +45,7 @@ function WorkCard() {
                             onClick={ctracker}
                             className="bg-transparent
                     hover:bg-accent text-accent 
-                    font-medium text-[20px] hover:text-light 
+                    font-semibold text-[20px] hover:text-light 
                     lg:w-[163px] lg:h-[64px] w-[343px] h-[61px] border-2 border-accent 
                     hover:border-transparent rounded">
                             Read More
@@ -88,7 +88,7 @@ function WorkCard() {
                             onClick={livangle}
                             className="bg-transparent
                     hover:bg-accent text-accent 
-                    font-medium text-[20px] hover:text-light 
+                    font-semibold text-[20px] hover:text-light 
                     lg:w-[163px] lg:h-[64px] w-[343px] h-[61px] border-2 border-accent 
                     hover:border-transparent rounded">
                             Read More
@@ -113,7 +113,7 @@ function WorkCard() {
                             onClick={hccucek}
                             className="bg-transparent
                     hover:bg-accent text-accent 
-                    font-medium text-[20px] hover:text-light 
+                    font-semibold text-[20px] hover:text-light 
                     lg:w-[163px] lg:h-[64px] w-[343px] h-[61px] border-2 border-accent 
                     hover:border-transparent rounded">
                             Read More
@@ -157,7 +157,7 @@ function WorkCard() {
                             onClick={ttclub}
                             className="bg-transparent
                     hover:bg-accent text-accent 
-                    font-medium text-[20px] hover:text-light 
+                    font-semibold text-[20px] hover:text-light 
                     lg:w-[163px] lg:h-[64px] w-[343px] h-[61px] border-2 border-accent 
                     hover:border-transparent rounded">
                             Read More
