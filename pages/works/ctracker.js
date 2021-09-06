@@ -1,7 +1,27 @@
 import Header from '../../components/project/Header';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 function ctracker() {
+
+    const router = useRouter();
+
+    const livangle = () => {
+        router.push({
+            pathname: '/works/livangle'
+        })
+    }
+    const hccucek = () => {
+        router.push({
+            pathname: '/works/hccucek'
+        })
+    }
+    const ttclub = () => {
+        router.push({
+            pathname: '/works/ttclub'
+        })
+    }
+
     return (
         <>
             <Header />
@@ -76,24 +96,30 @@ function ctracker() {
                 <section >
                     <h1 className="font-extrabold text-center text-[36px] text-accent my-[100px]">Other Featured Projects</h1>
                     <div className=" inline-flex flex-wrap space-x-[22.47px]">
-                        <div className="relative h-[371.69px] w-[371.69px] pt-[80px] hover:scale-105 transition
-        transform duration-200 ease-out">
+                        <div 
+                        onClick={livangle}
+                        className="relative h-[371.69px] w-[371.69px] pt-[80px] hover:scale-105 transition
+        transform duration-200 ease-out cursor-pointer">
                             <Image
                                 src='/Image-Assets/Livangle.png'
                                 layout="fill"
                                 objectFit="cover"
                             />
                         </div>
-                        <div className="relative h-[371.69px] w-[371.69px] pt-[80px] hover:scale-105 transition
-        transform duration-200 ease-out">
+                        <div 
+                        onClick={hccucek}
+                        className="relative h-[371.69px] w-[371.69px] pt-[80px] hover:scale-105 transition
+        transform duration-200 ease-out cursor-pointer">
                             <Image
                                 src='/Playground/HC-Cucek.png'
                                 layout="fill"
                                 objectFit="cover"
                             />
                         </div>
-                        <div className="relative h-[371.69px] w-[371.69px] pt-[80px] hover:scale-105 transition
-        transform duration-200 ease-out">
+                        <div 
+                        onClick={ttclub}
+                        className="relative h-[371.69px] w-[371.69px] pt-[80px] hover:scale-105 transition
+        transform duration-200 ease-out cursor-pointer">
                             <Image
                                 src='/Playground/TT-Club.png'
                                 layout="fill"

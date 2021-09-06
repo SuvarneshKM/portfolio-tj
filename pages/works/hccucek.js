@@ -1,7 +1,25 @@
 import Header from '../../components/project/Header';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 function hccucek() {
+    const router = useRouter();
+
+    const ctracker = () => {
+        router.push({
+            pathname: '/works/ctracker'
+        })
+    }
+    const livangle = () => {
+        router.push({
+            pathname: '/works/livangle'
+        })
+    }
+    const ttclub = () => {
+        router.push({
+            pathname: '/works/ttclub'
+        })
+    }
     return (
         <>
             <Header />
@@ -54,8 +72,10 @@ function hccucek() {
                 <section >
                     <h1 className="font-extrabold text-center text-[36px] text-accent my-[140px]">Other Featured Projects</h1>
                     <div className=" inline-flex flex-wrap space-x-[22.47px] ">
-                        <div className="relative h-[371.69px] w-[371.69px] mt-[24px] hover:scale-105 transition
-        transform duration-200 ease-out">
+                        <div 
+                        onClick={ttclub}
+                        className="relative h-[371.69px] w-[371.69px] mt-[24px] hover:scale-105 transition
+        transform duration-200 ease-out cursor-pointer">
                             <Image
                                 src='/Playground/TT-Club.png'
                                 layout="fill"
@@ -63,8 +83,10 @@ function hccucek() {
                                 className=""
                             />
                         </div>
-                        <div className="relative h-[371.69px] w-[371.69px] mt-[24px] hover:scale-105 transition
-        transform duration-200 ease-out">
+                        <div 
+                        onClick={ctracker}
+                        className="relative h-[371.69px] w-[371.69px] mt-[24px] hover:scale-105 transition
+        transform duration-200 ease-out cursor-pointer">
                             <Image
                                 src='/Image-Assets/Ctracker.png'
                                 layout="fill"
@@ -72,8 +94,10 @@ function hccucek() {
                                 className=""
                             />
                         </div>
-                        <div className="relative h-[371.69px] w-[371.69px] mt-[24px] hover:scale-105 transition
-        transform duration-200 ease-out">
+                        <div 
+                        onClick={livangle}
+                        className="relative h-[371.69px] w-[371.69px] mt-[24px] hover:scale-105 transition
+        transform duration-200 ease-out cursor-pointer">
                             <Image
                                 src='/Image-Assets/Livangle.png'
                                 layout="fill"
