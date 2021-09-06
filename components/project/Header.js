@@ -3,13 +3,47 @@ import LinkedinFillIcon from 'remixicon-react/LinkedinFillIcon';
 import CloseLineIcon from 'remixicon-react/CloseLineIcon';
 import MenuLineIcon from 'remixicon-react/MenuLineIcon';
 import { Transition } from "@headlessui/react";
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import HeartFillIcon from 'remixicon-react/HeartFillIcon';
+import useScrollListener from '../Scroll';
+import { useRouter } from 'next/router';
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
+    const router = useRouter();
+    const home = () => {
+        router.push({
+            pathname: '/'
+        })
+    }
+    const [navClassList, setNavClassList] = useState([]);
+    const scroll = useScrollListener();
+    const [handleShow, setHandleShow] = useState(false);
+
+    useEffect(() => {
+        const _classList = [];
+
+        if (scroll.y > 150 && scroll.y - scroll.lastY > 0)
+            _classList.push("-translate-y-full transition duration-200 ease-out");
+
+        setNavClassList(_classList);
+    }, [scroll.y, scroll.lastY]);
+
+    useEffect(() => {
+        const listener = () => {
+            if (window.scrollY > 0) {
+                setHandleShow(true);
+            } else
+                setHandleShow(false);
+        };
+        window.addEventListener("scroll", listener);
+
+        return () => {
+            window.removeEventListener("scroll", listener);
+        };
+    }, []);
     return (
-        <header className="sticky text-center top-0 z-40 bg-white px-0 py-5 md:px-10 shadow-md lg:shadow-xl md:shadow-none">
+        <header className={`sticky text-center top-0 z-40 bg-white px-0 py-[24px] md:px-10 ${handleShow ? "shadow-md " : ""} ${navClassList.join(" ")}  `}>
             <div className="hidden md:inline-flex text-dark items-center align-middle space-x-20 whitespace-nowrap">
                 <p className="text-accent font-medium cursor-pointer text-lg">Home</p>
                 <p className="hover:text-accent font-medium cursor-pointer text-lg">Featured Works</p>
