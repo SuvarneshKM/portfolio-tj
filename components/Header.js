@@ -122,7 +122,7 @@ function Header() {
                                 <a onClick={() => setIsOpen(!isOpen)} className="hover:text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium">Contact</a>
                             </Link>
                             <div>
-                                <div className="inline-flex items-center space-x-4 pt-10">
+                                <div className="inline-flex items-center space-x-4 pt-[48px]">
                                     <Link href="https://twitter.com/akhil__tj" >
                                         <a target="_blank" rel="noopener noreferrer" className="flex h-8 w-8 items-center border-2 p-1 rounded-full bg-dark hover:bg-accent hover:border-accent cursor-pointer">
                                             <TwitterFillIcon className="text-light" />

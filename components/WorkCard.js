@@ -29,7 +29,7 @@ function WorkCard() {
     return (
         <>
             {/* card-1 */}
-            <div className="text-dark flex flex-col-reverse lg:flex-row 2xl:pt-[80px] xl:pt-[80px] lg:pt-[80px] pt-[40px]">
+            <div className="text-dark flex flex-col-reverse lg:flex-row lg:pt-[80px] pt-[40px]">
                 {/* text */}
                 <div className="flex pr-16 2xl:pr-32 xl:pr-32 lg:pr-32 flex-col">
                     <h4 className="lg:text-[32px] text-left text-[24px] font-semibold">Ctracker - Track your foot and confirm your footprint</h4>
