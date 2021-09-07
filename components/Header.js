@@ -105,7 +105,7 @@ function Header() {
             >
                 {(ref) => (
                     <div className="md:hidden absolute bg-light right-0 h-screen w-3/4 top-full shadow-xl">
-                        <div ref={ref} className="px-20 text-dark pt-2 pb-3 space-y-8">
+                        <div ref={ref} className="px-[32px] text-dark pt-2 pb-3 space-y-[24px]">
                             <Link href="/#home">
                                 <a onClick={() => setIsOpen(!isOpen)} className="text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium">Home</a>
                             </Link>
