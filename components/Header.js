@@ -45,7 +45,7 @@ function Header() {
     }, []);
 
     return (
-        <header className={`sticky text-center top-0 z-40 bg-light px-0 py-[24px] md:px-10 ${handleShow ? "shadow-md " : ""} ${navClassList.join(" ")}  `}>
+        <header className={`sticky text-center top-0 z-40 bg-light px-0 lg:py-[22px] py-[18px] md:px-10 ${handleShow ? "shadow-md " : ""} ${navClassList.join(" ")}  `}>
             <div className="hidden md:inline-flex text-dark items-center align-middle space-x-[64px] whitespace-nowrap">
                 <Link href="/#home">
                     <a className="text-accent font-bold cursor-pointer text-[18px]">Home</a>
