@@ -75,7 +75,7 @@ function WorkCard() {
                     />
                 </div>
                 {/* text */}
-                <div className="flex pr-16 2xl:pl-32 xl:pl-32 lg:pl-32 flex-col">
+                <div className="flex pr-16 2xl:pl-32 xl:pl-32 lg:pl-32 flex-col pt-[24px] lg:pt-0">
                     <h4 className="lg:text-[32px] text-left text-[24px] font-semibold">Livangle</h4>
                     <p className="pt-[16px] text-[20px] text-left font-normal ">Livangle is an online e-commerce platform for your choice of business(Eg: Online Shopping, Healthcare, Food & Beverage etc) based in UAE & India.
                     </p>
@@ -100,7 +100,7 @@ function WorkCard() {
             {/* card-3 */}
             <div className="text-dark flex flex-col-reverse lg:flex-row 2xl:pt-[172px] xl:pt-[172px] lg:pt-[172px] pt-[64px]">
                 {/* text */}
-                <div className="flex pr-16 2xl:pr-32 xl:pr-32 lg:pr-32 flex-col flex-grow">
+                <div className="flex pr-16 2xl:pr-32 xl:pr-32 lg:pr-32 flex-col flex-grow pt-[24px] lg:pt-0">
                     <h4 className="lg:text-[32px] text-left text-[24px] font-semibold">Hack Club CUCEK - Web Design</h4>
                     <p className="pt-[16px] text-[20px] text-left font-normal ">A nonprofit network of high school coding clubs and makers around the world. For the students, by the students.
                     </p>
@@ -143,7 +143,7 @@ function WorkCard() {
                     />
                 </div>
                 {/* text */}
-                <div className="flex pr-16 2xl:pl-32 xl:pl-32 lg:pl-32 flex-col flex-grow">
+                <div className="flex pr-16 2xl:pl-32 xl:pl-32 lg:pl-32 flex-col flex-grow pt-[24px] lg:pt-0">
                     <h4 className="lg:text-[32px] text-left text-[24px] font-semibold">TT Club - Dashboard</h4>
                     <p className="pt-[16px] text-[20px] text-left font-normal ">TT Club is a real time airline booking dashboard that aims to cover all operational, relevant areas of an airline booking and serivices.
                     </p>
