@@ -31,7 +31,7 @@ function WorkCard() {
             {/* card-1 */}
             <div className="text-dark flex flex-col-reverse lg:flex-row lg:pt-[80px] pt-[40px]">
                 {/* text */}
-                <div className="flex pr-16 2xl:pr-32 xl:pr-32 lg:pr-32 flex-col">
+                <div className="flex pr-16 2xl:pr-32 xl:pr-32 lg:pr-32 flex-col pt-[24px] lg:pt-0">
                     <h4 className="lg:text-[32px] text-left text-[24px] font-semibold">Ctracker - Track your foot and confirm your footprint</h4>
                     <p className="pt-[16px] text-[20px] text-left font-normal ">Maintaining records of staff, customers and visitors for contact tracing purposes, as set out in the Government guidance due to COVID-19.
                     </p>
