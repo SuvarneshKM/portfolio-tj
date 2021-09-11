@@ -40,7 +40,7 @@ function WorkCard() {
                         <li className="p-1">Dark and Light Modes</li>
                         <li className="p-1">Received <span className="text-accent">237 Duplicates</span> and <span className="text-accent">7 Favourites</span> in Figma Community</li>
                     </ul>
-                    <div className="pt-[36px] lg:pt-[40px]">
+                    <div className="pt-[24px] lg:pt-[40px]">
                         <button
                             onClick={ctracker}
                             className="bg-transparent
@@ -83,7 +83,7 @@ function WorkCard() {
                         <li className="p-1">E-commerce Android Application</li>
                         <li className="p-1"><span className="text-accent">Happy Clients</span> :)</li>
                     </ul>
-                    <div className="pt-[36px] lg:pt-[40px]">
+                    <div className="pt-[24px] lg:pt-[40px]">
                         <button
                             onClick={livangle}
                             className="bg-transparent
@@ -108,7 +108,7 @@ function WorkCard() {
                         <li className="p-1">Responsive Web Design</li>
                         <li className="p-1">Full Design System(In Progress)</li>
                     </ul>
-                    <div className="pt-[36px] lg:pt-[40px]">
+                    <div className="pt-[24px] lg:pt-[40px]">
                         <button
                             onClick={hccucek}
                             className="bg-transparent
@@ -152,7 +152,7 @@ function WorkCard() {
                         <li className="p-1">Admin Application</li>
                         <li className="p-1">100% Auto Layout</li>
                     </ul>
-                    <div className="pt-[36px] lg:pt-[40px]">
+                    <div className="pt-[24px] lg:pt-[40px]">
                         <button
                             onClick={ttclub}
                             className="bg-transparent
