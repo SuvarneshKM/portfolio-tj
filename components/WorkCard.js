@@ -121,9 +121,18 @@ function WorkCard() {
                     </div>
                 </div>
                 {/* img */}
-                <div className="relative h-[207.58px] w-[344px] lg:h-[400px] lg:w-[680px] flex-shrink-0">
+                
+                {/* <div className="hidden relative lg:h-[400px] lg:w-[680px] flex-shrink-0">
                     <Image
                         src='/Portfolio/HCCUCEK.png'
+                        layout="fill"
+                        objectFit="cover"
+                        className=""
+                    />
+                </div> */}
+                <div className="relative h-[207.58px] w-[344px] lg:h-[410px] lg:w-[680px] flex-shrink-0">
+                    <Image
+                        src='/HC_Assets.png'
                         layout="fill"
                         objectFit="cover"
                         className=""
