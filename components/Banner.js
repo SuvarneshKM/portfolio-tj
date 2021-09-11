@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 function Banner() {
     return (
-        <div className="relative my-auto py-[108px] lg:py-[144px] max-w-[887px] mx-auto px-[15px] sm:px-[25px] text-left lg:text-center text-dark bg-light ">
+        <div className="relative my-auto py-[64px] lg:py-[144px] max-w-[887px] mx-auto px-[15px] sm:px-[25px] text-left lg:text-center text-dark bg-light ">
             <div className="relative h-[152px]">
                 <Image
                     src="/Avatar/main-avatar.png"
