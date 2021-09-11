@@ -14,7 +14,7 @@ function About() {
                 />
             </div>
             {/* text */}
-            <div className="flex pr-16 lg:pl-32 flex-col">
+            <div className="flex pr-16 lg:pl-32 flex-col pt-[24px] lg:pt-0">
                 <h4 className="lg:text-[32px] text-left text-[24px] font-semibold ">Hello, I’m Akhil T J</h4>
                 <p className="lg:pt-[12px] text-[20px] text-left font-normal">I’m a self taught <span className="text-accent">freelance</span> designer,
                     specialized in <span className="text-accent">UI/UX</span>, skilled in leadership, seeking to leverage solid design skills with a focus on collaboration, communication and passion. My knowledge and skillset includes the following:
