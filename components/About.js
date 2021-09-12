@@ -4,7 +4,6 @@ import Link from 'next/link';
 function About() {
     return (
         <div className="text-dark flex flex-col lg:flex-row lg:pt-[80px] pt-[40px]">
-            {/* img */}
             <div className="relative h-[343px] w-[343px] lg:h-[500px] lg:p-20 lg:w-[500px] flex-shrink-0">
                 <Image
                     src='/Image-Assets/Akhil-T-J.png'
@@ -13,7 +12,6 @@ function About() {
                     className=""
                 />
             </div>
-            {/* text */}
             <div className="flex pr-16 lg:pl-32 flex-col pt-[24px] lg:pt-0">
                 <h4 className="lg:text-[32px] text-left text-[24px] font-semibold ">Hello, I’m Akhil T J</h4>
                 <p className="lg:pt-[12px] text-[20px] text-left font-normal">I’m a self taught <span className="text-accent">freelance</span> designer,
@@ -94,7 +92,6 @@ function About() {
                         </a>
                     </Link>
                 </div>
-
             </div>
         </div>
     )

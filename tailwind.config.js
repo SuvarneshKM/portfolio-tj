@@ -50,5 +50,7 @@ module.exports = {
       fill: ['hover', 'focus'], // this line does the trick
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }

@@ -99,7 +99,7 @@ function WorkCard() {
                             className=""
                         />
                     </div>
-                    <div className="relative h-[165px] w-[275px] sm:h-[247.5px] sm:w-[412.5px] lg:hidden flex-shrink lg:flex-shrink-0">
+                    <div className="relative aspect-h-6 aspect-w-10 lg:hidden flex-shrink lg:flex-shrink-0">
                         <Image
                             src='/HC_Assets.png'
                             layout="fill"
@@ -137,7 +137,7 @@ function WorkCard() {
                             className=""
                         />
                     </div>
-                    <div className="relative h-[165px] w-[275px] sm:h-[247.5px] sm:w-[412.5px] lg:hidden flex-shrink lg:flex-shrink-0">
+                    <div className="relative aspect-h-6 aspect-w-10 lg:hidden flex-shrink lg:flex-shrink-0">
                         <Image
                             src='/Portfolio/TTClub.png'
                             layout="fill"
