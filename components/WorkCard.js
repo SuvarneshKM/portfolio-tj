@@ -79,7 +79,7 @@ function WorkCard() {
                         </ul>
                         <div className="pt-[24px] lg:pt-[40px]">
                             <button
-                                onClick={ctracker}
+                                onClick={livangle}
                                 className="bg-transparent
                     hover:bg-accent text-accent 
                     font-semibold text-[20px] hover:text-light 
@@ -117,7 +117,7 @@ function WorkCard() {
                         </ul>
                         <div className="pt-[24px] lg:pt-[40px]">
                             <button
-                                onClick={ctracker}
+                                onClick={hccucek}
                                 className="bg-transparent
                     hover:bg-accent text-accent 
                     font-semibold text-[20px] hover:text-light 
@@ -156,7 +156,7 @@ function WorkCard() {
                         </ul>
                         <div className="pt-[24px] lg:pt-[40px]">
                             <button
-                                onClick={ctracker}
+                                onClick={ttclub}
                                 className="bg-transparent
                     hover:bg-accent text-accent 
                     font-semibold text-[20px] hover:text-light 
