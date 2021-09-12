@@ -15,27 +15,18 @@ export default function Home() {
       </Head>
       <Header />
       <Banner />
-      <main className="max-w-[1240px] mx-auto px-[16px] sm:px-[25px]">
-        <section className="pt-[100px] lg:pt-[144px]" id="featured">
-          <h2 className="text-[36px] text-left lg:text-center font-extrabold pb-5 text-accent">
-            Featured Works
-          </h2>
+      <main className="max-w-[1240px] mx-auto">
+        <section className="pt-[100px] lg:pt-[144px]" id="featured">  
           <WorkCard />
         </section>
 
         <section className="pt-[100px] lg:pt-[200px]" id="playground">
-          <h2 className="text-[36px] text-left lg:text-center font-extrabold text-accent">
-            Playground
-          </h2>
           <Playground />
         </section>
         <section className="pt-[100px] lg:pt-[200px]" id="about">
-          <h2 className="text-[36px] text-left lg:text-center font-extrabold text-accent">
-            About Me
-          </h2>
           <About />
         </section>
-        <section className="pt-[100px] lg:pt-[200px]" id="contact">
+        <section className="pt-[100px] lg:pt-[200px]  px-[16px] py-[16px]" id="contact">
           <h2 className="text-[36px] text-left lg:text-center font-extrabold text-accent">
             Contact
           </h2>

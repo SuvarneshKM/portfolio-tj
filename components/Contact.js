@@ -34,10 +34,10 @@ function Contact() {
                 </div>
                 <div className="pt-[36px] lg:pt-[40px]">
                     <button
-                        className="bg-transparent
+                        className="bg-transparent px-[16px]
                     hover:bg-accent text-accent 
                     font-semibold text-[20px] hover:text-light 
-                    lg:w-[276px] lg:h-[64px] w-[343px] h-[61px] border-2 border-accent 
+                    lg:w-[199px] lg:h-[64px] h-[61px] w-full flex-shrink border-2 border-accent 
                     hover:border-transparent rounded">
                         Send Message
                     </button>

@@ -2,7 +2,10 @@ import Image from 'next/image';
 
 function Playground() {
     return (
-        <section className="lg:pt-[80px]">
+        <section className="lg:pt-[80px] px-[16px] py-[16px]">
+            <h2 className="text-[36px] text-left lg:text-center font-extrabold text-accent">
+                Playground
+            </h2>
             <div className="grid grid-cols-2
                 lg:grid-cols-3 xl:grid-cols-4 ">
                 <div className="flex items-center m-2 mt-5 space-x-4 rounded-lg cursor-pointer

@@ -29,6 +29,9 @@ function WorkCard() {
     return (
         <>
             <div className="px-[16px] py-[16px] text-dark">
+                <h2 className="text-[36px] text-left lg:text-center font-extrabold pb-5 text-accent">
+                    Featured Works
+                </h2>
                 <div className="flex flex-col lg:flex-row-reverse lg:pt-[80px] pt-[40px]">
                     <div className="relative h-[343px] w-auto max-w-[343px] lg:h-[500px] lg:w-[500px] flex-shrink lg:flex-shrink-0">
                         <Image
