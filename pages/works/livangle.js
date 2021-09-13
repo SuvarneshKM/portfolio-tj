@@ -139,7 +139,6 @@ function livangle() {
                 <section className="lg:pt-[140px] pt-[80px]">
                     <h2 className="lg:text-[36px] text-[28px] text-left lg:text-center font-extrabold text-accent">Other Featured Projects</h2>
                     <div className="flex flex-col lg:flex-row pt-[24px] lg:pt-[80px] lg:space-x-[22px]">
-
                         <div
                             onClick={hccucek}
                             className="relative lg:h-[371.69px] lg:w-[371.69px] mt-[24px] lg:mt-0 hover:scale-105 transition
