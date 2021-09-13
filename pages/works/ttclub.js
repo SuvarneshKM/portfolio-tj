@@ -24,7 +24,8 @@ function ttclub() {
     return (
         <>
             <Header />
-            <main className="max-w-[1160px] mx-auto">
+            
+            {/* <main className="max-w-[1160px] mx-auto">
                 <section className="pt-[145px]">
                     <div className="flex flex-row justify-between ">
                         <div>
@@ -158,7 +159,7 @@ function ttclub() {
                         </svg>
                         &nbsp;&nbsp;Akhil T J</p>
                 </footer>
-            </main>
+            </main> */}
         </>
     )
 }
