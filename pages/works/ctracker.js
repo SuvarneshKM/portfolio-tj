@@ -28,7 +28,7 @@ function ctracker() {
             <Header />
             <main className="max-w-[1160px] mx-auto px-[16px] py-[16px] text-ctracker3">
                 <section className="flex flex-col-reverse lg:flex-row lg:pt-[145px] pt-[128px]">
-                    <div className=" flex flex-col lg:pr-[140px]">
+                    <div className=" flex flex-col lg:pr-[140px] pt-[24px] lg:pt-0">
                         <div className="flex flex-col lg:space-y-[61px]">
                             {/* <div className="hidden lg:flex border-2 h-[40px] w-[40px] text-ctracker1 justify-center items-center rounded">
                                 <ListCheckIcon className="" />
@@ -161,7 +161,7 @@ function ctracker() {
                         </div>
                         <div
                             onClick={livangle}
-                            className="relative mt-[24px] aspect-w-1 aspect-h-1 lg:hidden hover:scale-105 transition: ;
+                            className="relative mt-[24px] aspect-w-1 aspect-h-1 lg:hidden hover:scale-105 transition
         transform duration-200 ease-out cursor-pointer">
                             <Image
                                 src='/Image-Assets/Livangle.png'
@@ -181,7 +181,7 @@ function ctracker() {
                         </div>
                         <div
                             onClick={hccucek}
-                            className="relative mt-[16px] aspect-w-1 aspect-h-1 lg:hidden hover:scale-105 transition: ;
+                            className="relative mt-[16px] aspect-w-1 aspect-h-1 lg:hidden hover:scale-105 transition
         transform duration-200 ease-out cursor-pointer">
                             <Image
                                 src='/Playground/HC-Cucek.png'
@@ -201,7 +201,7 @@ function ctracker() {
                         </div>
                         <div
                             onClick={ttclub}
-                            className="relative mt-[16px] aspect-w-1 aspect-h-1 lg:hidden hover:scale-105 transition: ;
+                            className="relative mt-[16px] aspect-w-1 aspect-h-1 lg:hidden hover:scale-105 transition
         transform duration-200 ease-out cursor-pointer">
                             <Image
                                 src='/Playground/TT-Club.png'
