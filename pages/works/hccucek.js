@@ -45,7 +45,7 @@ function hccucek() {
                             </ul>
                         </div>
                     </div>
-                    <div className="relative aspect-h-360 aspect-w-610 lg:hidden flex-shrink lg:flex-shrink-0">
+                    <div className="relative aspect-h-623 aspect-w-1032 lg:hidden flex-shrink lg:flex-shrink-0">
                         <Image
                             src='/Mobile/HC-Cucek-Image.png'
                             layout="fill"

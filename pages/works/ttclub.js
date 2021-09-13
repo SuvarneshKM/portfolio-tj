@@ -26,7 +26,7 @@ function ttclub() {
             <Header />
             <main className="max-w-[1160px] mx-auto px-[16px] py-[16px] text-ttclub3">
                 <section className="flex flex-col-reverse lg:flex-row lg:pt-[145px] pt-[128px]">
-                    <div className=" flex flex-col lg:pr-[30px] pt-[24px] lg:pt-0">
+                    <div className=" flex flex-col lg:pr-[40px] pt-[24px] lg:pt-0">
                         <div className="flex flex-col lg:space-y-[61px]">
                             {/* <div className="hidden lg:flex border-2 h-[40px] w-[40px] text-ttclub2 justify-center items-center rounded">
                                 <ListCheckIcon className="" />

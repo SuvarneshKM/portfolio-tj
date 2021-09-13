@@ -25,7 +25,7 @@ function livangle() {
             <Header />
             <main className="max-w-[1160px] mx-auto px-[16px] py-[16px] text-livangle2">
                 <section className="flex flex-col-reverse lg:flex-row lg:pt-[145px] pt-[128px]">
-                    <div className=" flex flex-col lg:pr-[140px] pt-[24px] lg:pt-0">
+                    <div className=" flex flex-col lg:pr-[200px] pt-[24px] lg:pt-0">
                         <div className="flex flex-col lg:space-y-[61px]">
                             {/* <div className="hidden lg:flex border-2 h-[40px] w-[40px] text-livangle3 justify-center items-center rounded">
                                 <ListCheckIcon className="" />
@@ -45,14 +45,14 @@ function livangle() {
                             </ul>
                         </div>
                     </div>
-                    <div className="relative aspect-h-1521 aspect-w-963 lg:hidden flex-shrink lg:flex-shrink-0">
+                    <div className="relative aspect-h-1299 aspect-w-1032 lg:hidden flex-shrink lg:flex-shrink-0">
                         <Image
                             src='/Mobile/Livangle-Image.png'
                             layout="fill"
                             objectFit="cover"
                         />
                     </div>
-                    <div className="relative lg:h-[507px] lg:w-[360px] lg:max-w-[360px] flex-shrink lg:flex-shrink-0">
+                    <div className="relative lg:h-[507px] lg:w-[402px] lg:max-w-[402px] flex-shrink lg:flex-shrink-0">
                         <Image
                             src='/Portfolio/Livangle.png'
                             layout="fill"
