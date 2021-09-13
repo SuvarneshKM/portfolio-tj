@@ -33,7 +33,7 @@ function WorkCard() {
                     Featured Works
                 </h2>
                 <div className="flex flex-col lg:flex-row-reverse lg:pt-[80px] pt-[40px]">
-                    <div className="relative h-[343px] w-auto max-w-[343px] lg:h-[500px] lg:w-[500px] flex-shrink lg:flex-shrink-0">
+                    <div className="relative lg:h-[500px] lg:w-[500px] lg:max-w-[500px] flex-shrink lg:flex-shrink-0">
                         <Image
                             src='/Image-Assets/Ctracker.png'
                             layout="fill"
@@ -41,7 +41,15 @@ function WorkCard() {
                             className=""
                         />
                     </div>
-                    <div className="flex flex-col pt-[24px] lg:pt-0 lg:pr-[200px]">
+                    <div className="relative aspect-h-1 aspect-w-1 lg:hidden flex-shrink lg:flex-shrink-0">
+                        <Image
+                            src='/Image-Assets/Ctracker.png'
+                            layout="fill"
+                            objectFit="cover"
+                            className=""
+                        />
+                    </div>
+                    <div className="flex flex-col pt-[24px] lg:pt-0 lg:pr-[140px]">
                         <h4 className="lg:text-[32px] text-left text-[24px] font-semibold">Ctracker - Track your foot and confirm your footprint</h4>
                         <p className="pt-[16px] text-[20px] text-left font-normal ">Maintaining records of staff, customers and visitors for contact tracing purposes, as set out in the Government guidance due to COVID-19.
                         </p>
@@ -64,7 +72,15 @@ function WorkCard() {
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:pt-[172px] pt-[64px] space-x-0 lg:space-x-[250px]">
-                    <div className="relative h-[343px] w-auto max-w-[343px] lg:h-[500px] lg:w-[500px]  flex-shrink lg:flex-shrink-0">
+                    <div className="relative lg:h-[500px] lg:w-[500px] lg:max-w-[500px] flex-shrink lg:flex-shrink-0">
+                        <Image
+                            src='/Image-Assets/Livangle.png'
+                            layout="fill"
+                            objectFit="cover"
+                            className=""
+                        />
+                    </div>
+                    <div className="relative aspect-h-1 aspect-w-1 lg:hidden flex-shrink lg:flex-shrink-0">
                         <Image
                             src='/Image-Assets/Livangle.png'
                             layout="fill"
