@@ -9,64 +9,6 @@ function playground() {
         <>
             <Header />
             <main className="max-w-[1240px] mx-auto px-[16px] py-[16px] text-dark">
-                {/* <section>
-                    <div className="flex flex-col lg:flex-row pt-[24px] lg:pt-[80px] lg:space-x-[22px]">
-                        <div
-                            className="relative lg:h-[371.69px] lg:w-[371.69px] mt-[24px] lg:mt-0 hover:scale-105 transition
-        transform duration-200 ease-out cursor-pointer">
-                            <Image
-                                src='/Image-Assets/Ctracker.png'
-                                layout="fill"
-                                objectFit="cover"
-                            />
-                        </div>
-                        <div
-                            className="relative mt-[16px] aspect-w-1 aspect-h-1 lg:hidden hover:scale-105 transition
-        transform duration-200 ease-out cursor-pointer">
-                            <Image
-                                src='/Image-Assets/Ctracker.png'
-                                layout="fill"
-                                objectFit="cover"
-                            />
-                        </div>
-                        <div
-                            className="relative lg:h-[371.69px] lg:w-[371.69px] mt-[24px] lg:mt-0 hover:scale-105 transition
-        transform duration-200 ease-out cursor-pointer">
-                            <Image
-                                src='/Image-Assets/Livangle.png'
-                                layout="fill"
-                                objectFit="cover"
-                            />
-                        </div>
-                        <div
-                            className="relative mt-[24px] aspect-w-1 aspect-h-1 lg:hidden hover:scale-105 transition
-        transform duration-200 ease-out cursor-pointer">
-                            <Image
-                                src='/Image-Assets/Livangle.png'
-                                layout="fill"
-                                objectFit="cover"
-                            />
-                        </div>
-                        <div
-                            className="relative lg:h-[371.69px] lg:w-[371.69px] mt-[24px] lg:mt-0 hover:scale-105 transition
-        transform duration-200 ease-out cursor-pointer">
-                            <Image
-                                src='/Playground/HC-Cucek.png'
-                                layout="fill"
-                                objectFit="cover"
-                            />
-                        </div>
-                        <div
-                            className="relative mt-[24px] aspect-w-1 aspect-h-1 lg:hidden hover:scale-105 transition
-        transform duration-200 ease-out cursor-pointer">
-                            <Image
-                                src='/Playground/HC-Cucek.png'
-                                layout="fill"
-                                objectFit="cover"
-                            />
-                        </div>
-                    </div>
-                </section> */}
                 <section className="lg:flex flex-wrap lg:flex-wrap lg:pt-[145px] pt-[80px]">
                     <div className="
                             items-center m-2 mt-5 space-x-4 rounded-lg cursor-pointer
