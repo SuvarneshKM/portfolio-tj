@@ -22,7 +22,7 @@ function hccucek() {
     }
     return (
         <>
-            <Header />
+            <Header page={`featured`} />
             <main className="max-w-[1160px] mx-auto px-[16px] py-[16px] text-hccucek3">
                 <section className="flex flex-col-reverse lg:flex-row lg:pt-[145px] pt-[128px]">
                     <div className=" flex flex-col lg:pr-[30px] pt-[24px] lg:pt-0">

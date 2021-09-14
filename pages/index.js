@@ -13,7 +13,7 @@ export default function Home() {
         <title>Akhil T J</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      <Header page={`home`} />
       <Banner />
       <main className="max-w-[1240px] mx-auto">
         <section className="pt-[100px] lg:pt-[144px]" id="featured">  

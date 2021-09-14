@@ -7,7 +7,7 @@ import LinkedinFillIcon from 'remixicon-react/LinkedinFillIcon';
 function about() {
     return (
         <>
-            <Header />
+            <Header page={`about`} />
             <main className="max-w-[1240px] mx-auto px-[16px] py-[16px] text-dark">
                 <section className="flex flex-col lg:flex-row lg:pt-[145px] pt-[80px] ">
                     <div className="relative aspect-h-1 aspect-w-1 lg:hidden flex-shrink lg:flex-shrink-0">

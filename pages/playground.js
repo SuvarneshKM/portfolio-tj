@@ -7,7 +7,7 @@ import LinkedinFillIcon from 'remixicon-react/LinkedinFillIcon';
 function playground() {
     return (
         <>
-            <Header />
+            <Header page={`playground`} />
             <main className="max-w-[1240px] mx-auto px-[16px] py-[16px] text-dark">
                 <section className="lg:flex flex-wrap lg:flex-wrap lg:pt-[145px] pt-[80px]">
                     <div className="
