@@ -12,6 +12,7 @@ module.exports = {
     },
     colors: {
       light: '#FAF9F0',
+      lightborder: '#C4C4C4',
       dark: '#000249',
       accent: '#F6490D',
       accentlight: '#feede7',
