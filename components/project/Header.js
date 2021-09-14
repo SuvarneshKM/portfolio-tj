@@ -17,17 +17,28 @@ function Header({ page }) {
             pathname: '/'
         })
     }
+    const about = () => {
+        router.push({
+            pathname: '/about'
+        })
+    }
+    const playground = () => {
+        router.push({
+            pathname: '/playground'
+        })
+    }
+
     const [navClassList, setNavClassList] = useState([]);
     const scroll = useScrollListener();
     const [handleShow, setHandleShow] = useState(false);
 
     useEffect(() => {
-      const _classList = [];
-  
-      if (scroll.y > 150 && scroll.y - scroll.lastY > 0)
-        _classList.push("-translate-y-full transition duration-200 ease-out");
-  
-      setNavClassList(_classList);
+        const _classList = [];
+
+        if (scroll.y > 150 && scroll.y - scroll.lastY > 0)
+            _classList.push("-translate-y-full transition duration-200 ease-out");
+
+        setNavClassList(_classList);
     }, [scroll.y, scroll.lastY]);
 
     useEffect(() => {
@@ -47,20 +58,20 @@ function Header({ page }) {
     return (
         <header className={`sticky text-center top-0 z-40 bg-light px-0 lg:py-[22px] py-[18px] md:px-10 ${handleShow ? "shadow-md " : ""} ${navClassList.join(" ")}  `}>
             <div className="hidden md:inline-flex text-dark items-center align-middle space-x-[64px] whitespace-nowrap">
-                <Link href="/#home">
-                    <a className={ ` ${page == 'home' ? "text-accent font-bold" : "hover:text-accent font-medium" } cursor-pointer text-[18px] `}>Home</a>
+                <Link href="/">
+                    <a onClick={home} className={` ${page == 'home' ? "text-accent font-bold" : "hover:text-accent font-medium"} cursor-pointer text-[18px] `}>Home</a>
                 </Link>
                 <Link href="/#featured">
-                    <a className={ ` ${page == 'featured' ? "text-accent font-bold" : "hover:text-accent font-medium" } cursor-pointer text-[18px] `}>Featured Works</a>
+                    <a className={` ${page == 'featured' ? "text-accent font-bold" : "hover:text-accent font-medium"} cursor-pointer text-[18px] `}>Featured Works</a>
                 </Link>
-                <Link href="/#playground">
-                    <a className={ ` ${page == 'playground' ? "text-accent font-bold" : "hover:text-accent font-medium" } cursor-pointer text-[18px] `}>Playground</a>
+                <Link href="/playground">
+                    <a onClick={playground} className={` ${page == 'playground' ? "text-accent font-bold" : "hover:text-accent font-medium"} cursor-pointer text-[18px] `}>Playground</a>
                 </Link>
-                <Link href="/#about">
-                    <a className={ ` ${page == 'about' ? "text-accent font-bold" : "hover:text-accent font-medium" } cursor-pointer text-[18px] `}>About</a>
+                <Link href="/about">
+                    <a onClick={about} className={` ${page == 'about' ? "text-accent font-bold" : "hover:text-accent font-medium"} cursor-pointer text-[18px] `}>About</a>
                 </Link>
                 <Link href="/#contact">
-                    <p className={ ` ${page == 'contact' ? "text-accent font-bold" : "hover:text-accent font-medium" } cursor-pointer text-[18px] `}>Contact</p>
+                    <p className={` ${page == 'contact' ? "text-accent font-bold" : "hover:text-accent font-medium"} cursor-pointer text-[18px] `}>Contact</p>
                 </Link>
                 <div className="hidden lg:inline-flex items-center space-x-[16px]">
                     <Link href="https://twitter.com/akhil__tj" >
@@ -106,20 +117,20 @@ function Header({ page }) {
                 {(ref) => (
                     <div className="md:hidden absolute bg-light right-0 h-screen w-3/4 top-full shadow-6xl" >
                         <div ref={ref} className="px-[32px] text-dark pt-2 pb-3 space-y-[24px]">
-                            <Link href="/#home">
-                                <a onClick={() => setIsOpen(!isOpen)} className={` ${page == 'home' ? "text-accent" : "hover:text-accent" } border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium `}>Home</a>
+                            <Link href="/">
+                                <a onClick={home} className={` ${page == 'home' ? "text-accent" : "hover:text-accent"} border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium `}>Home</a>
                             </Link>
                             <Link href="/#featured">
-                                <a onClick={() => setIsOpen(!isOpen)} className={` ${page == 'featured' ? "text-accent" : "hover:text-accent" } border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium `}>Featured Works</a>
+                                <a onClick={() => setIsOpen(!isOpen)} className={` ${page == 'featured' ? "text-accent" : "hover:text-accent"} border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium `}>Featured Works</a>
                             </Link>
-                            <Link href="/#playground">
-                                <a onClick={() => setIsOpen(!isOpen)} className={` ${page == 'playground' ? "text-accent" : "hover:text-accent" } border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium `}>Playground</a>
+                            <Link href="/playground">
+                                <a onClick={playground} className={` ${page == 'playground' ? "text-accent" : "hover:text-accent"} border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium `}>Playground</a>
                             </Link>
-                            <Link href="/#about">
-                                <a onClick={() => setIsOpen(!isOpen)} className={` ${page == 'about' ? "text-accent" : "hover:text-accent" } border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium `}>About</a>
+                            <Link href="/about">
+                                <a onClick={about} className={` ${page == 'about' ? "text-accent" : "hover:text-accent"} border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium `}>About</a>
                             </Link>
                             <Link href="/#contact">
-                                <a onClick={() => setIsOpen(!isOpen)} className={` ${page == 'contact' ? "text-accent" : "hover:text-accent" } border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium `}>Contact</a>
+                                <a onClick={() => setIsOpen(!isOpen)} className={` ${page == 'contact' ? "text-accent" : "hover:text-accent"} border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium `}>Contact</a>
                             </Link>
                             <div>
                                 <div className="inline-flex items-center space-x-4 pt-[48px]">

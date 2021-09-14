@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
-import Header from '../components/Header'
+import Header from '../components/project/Header'
 import WorkCard from '../components/WorkCard';
 import Playground from '../components/Playground';
 import About from '../components/About';
