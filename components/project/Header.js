@@ -132,6 +132,9 @@ function Header({ page }) {
                             <Link href="/#contact">
                                 <a onClick={() => setIsOpen(!isOpen)} className={` ${page == 'contact' ? "text-accent" : "hover:text-accent"} border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium `}>Contact</a>
                             </Link>
+                           <Link href="https://www.figma.com/proto/CzBq3kBFgun86eVK4DyZCC/Akhil-T-J-Resume?page-id=0%3A1&node-id=2%3A6&viewport=241%2C48%2C0.2&scaling=scale-down-width">
+                                <a target="_blank" rel="noopener noreferrer" className="hover:text-accent border-2 cursor-pointer block px-3 py-2 rounded-md text-base font-medium ">My Resume</a>
+                            </Link>
                             <div>
                                 <div className="inline-flex items-center space-x-4 pt-[48px]">
                                     <Link href="https://twitter.com/akhil__tj" >
