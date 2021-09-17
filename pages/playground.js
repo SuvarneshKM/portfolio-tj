@@ -133,6 +133,16 @@ function playground() {
                         <input placeholder="Email" type="text" className="border-2 border-dark px-[9px] py-[9px] rounded-md bg-light text-dark" />
                         <textarea rows="5" placeholder="Message" type="text" className="border-2 border-dark px-[9px] py-[9px] rounded-md bg-light text-dark" />
                     </form>
+                    <div className="pt-[36px] lg:pt-[40px]">
+                        <button
+                            className="bg-transparent
+                    hover:bg-accent text-accent 
+                    font-semibold text-[20px] hover:text-light 
+                    lg:w-[173px] lg:h-[64px] h-[61px] w-full flex-shrink border-2 border-accent 
+                    hover:border-transparent rounded">
+                            Send Message
+                        </button>
+                    </div>
                     <div className="flex flex-col-reverse items-center md:flex-row justify-between">
                         <div>
                             <div className="inline-flex items-center space-x-4 pt-10">
@@ -154,16 +164,6 @@ function playground() {
                                     </a>
                                 </Link>
                             </div>
-                        </div>
-                        <div className="pt-[36px] lg:pt-[40px]">
-                            <button
-                                className="bg-transparent px-[16px]
-                    hover:bg-accent text-accent 
-                    font-semibold text-[20px] hover:text-light 
-                    lg:w-[199px] lg:h-[64px] h-[61px] w-full flex-shrink border-2 border-accent 
-                    hover:border-transparent rounded">
-                                Send Message
-                            </button>
                         </div>
                     </div>
                 </section>
